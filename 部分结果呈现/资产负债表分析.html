@@ -1,0 +1,4990 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>资产负债表</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-liquidfill.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/ResizeSensor.js"></script>
+
+            <link rel="stylesheet"  href="https://assets.pyecharts.org/assets/jquery-ui.css">
+
+</head>
+<body>
+    <style>.box {  }; </style>
+        
+    <div class="box">
+                <div id="abs" class="chart-container" style="position: absolute; width: 838px; height: 500px; top: 31px; left: -11px;"></div>
+    <script>
+        var chart_abs = echarts.init(
+            document.getElementById('abs'), 'white', {renderer: 'canvas'});
+        var option_abs = {
+    "baseOption": {
+        "series": [],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": false,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "playInterval": 1000,
+            "left": "28.0%",
+            "bottom": "-8px",
+            "width": "40%",
+            "controlStyle": {
+                "show": true,
+                "showPlayBtn": true,
+                "showPrevBtn": true,
+                "showNextBtn": true,
+                "itemSize": 18,
+                "itemGap": 12,
+                "position": "left",
+                "color": "#304654",
+                "borderColor": "#304654",
+                "borderWidth": 1
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021",
+                ""
+            ]
+        },
+        "grid": [
+            {
+                "show": false,
+                "zlevel": 0,
+                "z": 2,
+                "containLabel": false,
+                "backgroundColor": "transparent",
+                "borderColor": "#ccc",
+                "borderWidth": 1
+            },
+            {
+                "show": false,
+                "zlevel": 0,
+                "z": 2,
+                "containLabel": false,
+                "backgroundColor": "transparent",
+                "borderColor": "#ccc",
+                "borderWidth": 1
+            },
+            {
+                "show": false,
+                "zlevel": 0,
+                "z": 2,
+                "containLabel": false,
+                "backgroundColor": "transparent",
+                "borderColor": "#ccc",
+                "borderWidth": 1
+            },
+            {
+                "show": false,
+                "zlevel": 0,
+                "z": 2,
+                "containLabel": false,
+                "backgroundColor": "transparent",
+                "borderColor": "#ccc",
+                "borderWidth": 1
+            },
+            {
+                "show": false,
+                "zlevel": 0,
+                "z": 2,
+                "containLabel": false,
+                "backgroundColor": "transparent",
+                "borderColor": "#ccc",
+                "borderWidth": 1
+            },
+            {
+                "show": false,
+                "zlevel": 0,
+                "z": 2,
+                "containLabel": false,
+                "backgroundColor": "transparent",
+                "borderColor": "#ccc",
+                "borderWidth": 1
+            }
+        ]
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "liquidFill",
+                    "name": "\u8d44\u4ea7\u603b\u8ba1",
+                    "data": [
+                        1
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '1439.6' + '\u4ebf' + '\n' + '\n' + '100%';}
+                    },
+                    "center": [
+                        "16.6%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 0,
+                    "yAxisIndex": 0
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                    "data": [
+                        0.751798581315243
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '1082.3' + '\u4ebf' + '\n' + '\n' + '75' + '%';}
+                    },
+                    "center": [
+                        "50%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 1,
+                    "yAxisIndex": 1
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                    "data": [
+                        0.24820141868475698
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '357.3' + '\u4ebf' + '\n' + '\n' + '24' + '%';}
+                    },
+                    "center": [
+                        "83.3%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 2,
+                    "yAxisIndex": 2
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        1
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '985.8' + '\u4ebf' + '\n' + '\n' + '100%';}
+                    },
+                    "center": [
+                        "16.6%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 3,
+                    "yAxisIndex": 3
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        0.888548483279941
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '875.9' + '\u4ebf' + '\n' + '\n' + '88' + '%';}
+                    },
+                    "center": [
+                        "50%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 4,
+                    "yAxisIndex": 4
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        0.11145151672005907
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '109.9' + '\u4ebf' + '\n' + '\n' + '11' + '%';}
+                    },
+                    "center": [
+                        "83.3%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 5,
+                    "yAxisIndex": 5
+                }
+            ],
+            "title": [
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": false,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "liquidFill",
+                    "name": "\u8d44\u4ea7\u603b\u8ba1",
+                    "data": [
+                        1
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '1293.5' + '\u4ebf' + '\n' + '\n' + '100%';}
+                    },
+                    "center": [
+                        "16.6%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 0,
+                    "yAxisIndex": 0
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                    "data": [
+                        0.7177975676043438
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '928.5' + '\u4ebf' + '\n' + '\n' + '71' + '%';}
+                    },
+                    "center": [
+                        "50%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 1,
+                    "yAxisIndex": 1
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                    "data": [
+                        0.28220243239565623
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '365.0' + '\u4ebf' + '\n' + '\n' + '28' + '%';}
+                    },
+                    "center": [
+                        "83.3%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 2,
+                    "yAxisIndex": 2
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        1
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '963.9' + '\u4ebf' + '\n' + '\n' + '100%';}
+                    },
+                    "center": [
+                        "16.6%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 3,
+                    "yAxisIndex": 3
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        0.9272406824794014
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '893.8' + '\u4ebf' + '\n' + '\n' + '92' + '%';}
+                    },
+                    "center": [
+                        "50%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 4,
+                    "yAxisIndex": 4
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        0.07275931752059865
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '70.1' + '\u4ebf' + '\n' + '\n' + '7' + '%';}
+                    },
+                    "center": [
+                        "83.3%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 5,
+                    "yAxisIndex": 5
+                }
+            ],
+            "title": [
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": false,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "liquidFill",
+                    "name": "\u8d44\u4ea7\u603b\u8ba1",
+                    "data": [
+                        1
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '1412.0' + '\u4ebf' + '\n' + '\n' + '100%';}
+                    },
+                    "center": [
+                        "16.6%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 0,
+                    "yAxisIndex": 0
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                    "data": [
+                        0.7263854331947601
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '1025.7' + '\u4ebf' + '\n' + '\n' + '72' + '%';}
+                    },
+                    "center": [
+                        "50%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 1,
+                    "yAxisIndex": 1
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                    "data": [
+                        0.2736145668052399
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '386.3' + '\u4ebf' + '\n' + '\n' + '27' + '%';}
+                    },
+                    "center": [
+                        "83.3%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 2,
+                    "yAxisIndex": 2
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        1
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '1032.5' + '\u4ebf' + '\n' + '\n' + '100%';}
+                    },
+                    "center": [
+                        "16.6%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 3,
+                    "yAxisIndex": 3
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        0.8365358394868844
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '863.7' + '\u4ebf' + '\n' + '\n' + '83' + '%';}
+                    },
+                    "center": [
+                        "50%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 4,
+                    "yAxisIndex": 4
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        0.16346416051311563
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '168.8' + '\u4ebf' + '\n' + '\n' + '16' + '%';}
+                    },
+                    "center": [
+                        "83.3%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 5,
+                    "yAxisIndex": 5
+                }
+            ],
+            "title": [
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": false,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "liquidFill",
+                    "name": "\u8d44\u4ea7\u603b\u8ba1",
+                    "data": [
+                        1
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '1506.3' + '\u4ebf' + '\n' + '\n' + '100%';}
+                    },
+                    "center": [
+                        "16.6%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 0,
+                    "yAxisIndex": 0
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                    "data": [
+                        0.7101758672057059
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '1069.8' + '\u4ebf' + '\n' + '\n' + '71' + '%';}
+                    },
+                    "center": [
+                        "50%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 1,
+                    "yAxisIndex": 1
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                    "data": [
+                        0.28982413279429403
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '436.6' + '\u4ebf' + '\n' + '\n' + '28' + '%';}
+                    },
+                    "center": [
+                        "83.3%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 2,
+                    "yAxisIndex": 2
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        1
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '1045.1' + '\u4ebf' + '\n' + '\n' + '100%';}
+                    },
+                    "center": [
+                        "16.6%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 3,
+                    "yAxisIndex": 3
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        0.7118291705099108
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '743.9' + '\u4ebf' + '\n' + '\n' + '71' + '%';}
+                    },
+                    "center": [
+                        "50%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 4,
+                    "yAxisIndex": 4
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        0.2881708294900892
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '301.2' + '\u4ebf' + '\n' + '\n' + '28' + '%';}
+                    },
+                    "center": [
+                        "83.3%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 5,
+                    "yAxisIndex": 5
+                }
+            ],
+            "title": [
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": false,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "liquidFill",
+                    "name": "\u8d44\u4ea7\u603b\u8ba1",
+                    "data": [
+                        1
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '1687.6' + '\u4ebf' + '\n' + '\n' + '100%';}
+                    },
+                    "center": [
+                        "16.6%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 0,
+                    "yAxisIndex": 0
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                    "data": [
+                        0.7576942989868806
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '1278.7' + '\u4ebf' + '\n' + '\n' + '75' + '%';}
+                    },
+                    "center": [
+                        "50%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 1,
+                    "yAxisIndex": 1
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                    "data": [
+                        0.2423057010131194
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '408.9' + '\u4ebf' + '\n' + '\n' + '24' + '%';}
+                    },
+                    "center": [
+                        "83.3%",
+                        "25%"
+                    ],
+                    "xAxisIndex": 2,
+                    "yAxisIndex": 2
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        1
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '1154.8' + '\u4ebf' + '\n' + '\n' + '100%';}
+                    },
+                    "center": [
+                        "16.6%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 3,
+                    "yAxisIndex": 3
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        0.6814006038409878
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '786.9' + '\u4ebf' + '\n' + '\n' + '68' + '%';}
+                    },
+                    "center": [
+                        "50%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 4,
+                    "yAxisIndex": 4
+                },
+                {
+                    "type": "liquidFill",
+                    "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                    "data": [
+                        0.3185993961590122
+                    ],
+                    "waveAnimation": true,
+                    "animationDuration": 2000,
+                    "animationDurationUpdate": 1000,
+                    "color": [
+                        "rgb(107,162,255)"
+                    ],
+                    "shape": "circle",
+                    "backgroundStyle": {},
+                    "outline": {
+                        "show": false,
+                        "borderDistance": 8
+                    },
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 18,
+                        "formatter": function(x){return x.seriesName + '\n' + '367.9' + '\u4ebf' + '\n' + '\n' + '31' + '%';}
+                    },
+                    "center": [
+                        "83.3%",
+                        "75%"
+                    ],
+                    "xAxisIndex": 5,
+                    "yAxisIndex": 5
+                }
+            ],
+            "title": [
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": false,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [],
+                    "selected": {}
+                }
+            ],
+            "series": [],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        }
+    ]
+};
+        chart_abs.setOption(option_abs);
+    </script>
+<br/>                <div id="equity_liability" class="chart-container" style="position: absolute; width: 679px; height: 500px; top: 31px; left: 822px;"></div>
+    <script>
+        var chart_equity_liability = echarts.init(
+            document.getElementById('equity_liability'), 'light', {renderer: 'canvas'});
+        var option_equity_liability = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u8d1f\u503a\u5408\u8ba1",
+            "legendHoverLink": true,
+            "data": [
+                985.821,
+                963.901,
+                1032.478,
+                1045.124,
+                1154.758
+            ],
+            "showBackground": false,
+            "stack": "stack1",
+            "barMinHeight": 0,
+            "barCategoryGap": "70%",
+            "barGap": 0,
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "right",
+                "margin": 8,
+                "fontSize": 13,
+                "formatter": function(params){return Number(params.data).toFixed(1) + '\u4ebf';}
+            },
+            "itemStyle": {
+                "color": "rgb(107,162,255)",
+                "opacity": 0.9
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u80a1\u4e1c\u6743\u76ca\u5408\u8ba1",
+            "legendHoverLink": true,
+            "data": [
+                453.801,
+                329.607,
+                379.543,
+                461.225,
+                532.877
+            ],
+            "showBackground": false,
+            "stack": "stack1",
+            "barMinHeight": 0,
+            "barCategoryGap": "70%",
+            "barGap": 0,
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "right",
+                "margin": 8,
+                "fontSize": 13,
+                "formatter": function(params){return Number(params.data).toFixed(1) + '\u4ebf';}
+            },
+            "itemStyle": {
+                "color": "rgb(148,162,255)",
+                "opacity": 0.9
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u8d1f\u503a\u5408\u8ba1",
+                "\u80a1\u4e1c\u6743\u76ca\u5408\u8ba1"
+            ],
+            "selected": {
+                "\u8d1f\u503a\u5408\u8ba1": true,
+                "\u80a1\u4e1c\u6743\u76ca\u5408\u8ba1": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "none"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function(params){            color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';            form = params[0].name + '\u5e74' + '<br />';            for(i=0; i<params.length; i++){            form += color_icon + params[i].color + '\"></span>'+ params[i].seriesName + '\uff1a' + params[i].data + '\u4ebf\u5143' + '<br />';            }            return form;            }            ,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "name": "\u5e74\u4efd",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6570\n\u989d",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 50,
+            "nameRotate": 0,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u8d1f\u503a\u80a1\u6743\u6bd4\u4f8b\u5206\u6790",
+            "subtext": "\u5355\u4f4d: \u4ebf\u5143",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "-7px",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_equity_liability.setOption(option_equity_liability);
+    </script>
+<br/>                <div id="equity" class="chart-container" style="position: absolute; width: 1461px; height: 549px; top: 537px; left: 4px;"></div>
+    <script>
+        var chart_equity = echarts.init(
+            document.getElementById('equity'), 'white', {renderer: 'canvas'});
+        var option_equity = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "pie",
+                "name": "\u603b\u8d44\u4ea7\u6bd4\u4f8b",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                        "value": 1278.71085
+                    },
+                    {
+                        "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                        "value": 408.9234
+                    }
+                ],
+                "radius": "45%",
+                "center": [
+                    "50%",
+                    "50%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8,
+                    "fontSize": 10,
+                    "formatter": "{b}\n{d}%"
+                },
+                "tooltip": {
+                    "show": true,
+                    "trigger": "item",
+                    "triggerOn": "mousemove|click",
+                    "axisPointer": {
+                        "type": "line"
+                    },
+                    "showContent": true,
+                    "alwaysShowContent": false,
+                    "showDelay": 0,
+                    "hideDelay": 100,
+                    "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                    "textStyle": {
+                        "fontSize": 14
+                    },
+                    "borderWidth": 0,
+                    "padding": 5
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            },
+            {
+                "type": "pie",
+                "name": "\u6d41\u52a8\u8d44\u4ea7\u6bd4\u4f8b",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "\u9884\u4ed8\u6b3e\u9879",
+                        "value": 6.06781
+                    },
+                    {
+                        "name": "\u5e94\u6536\u7968\u636e\u53ca\u5e94\u6536\u8d26\u6b3e",
+                        "value": 175.09059
+                    },
+                    {
+                        "name": "\u5176\u4ed6\u6d41\u52a8\u8d44\u4ea7",
+                        "value": 227.25182
+                    },
+                    {
+                        "name": "\u5b58\u8d27",
+                        "value": 363.16753
+                    },
+                    {
+                        "name": "\u8d27\u5e01\u8d44\u91d1",
+                        "value": 507.1331
+                    }
+                ],
+                "radius": [
+                    "37%",
+                    "47%"
+                ],
+                "center": [
+                    "22%",
+                    "50%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8,
+                    "fontSize": 10,
+                    "formatter": "{b}\n{d}%"
+                },
+                "tooltip": {
+                    "show": true,
+                    "trigger": "item",
+                    "triggerOn": "mousemove|click",
+                    "axisPointer": {
+                        "type": "line"
+                    },
+                    "showContent": true,
+                    "alwaysShowContent": false,
+                    "showDelay": 0,
+                    "hideDelay": 100,
+                    "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                    "textStyle": {
+                        "fontSize": 14
+                    },
+                    "borderWidth": 0,
+                    "padding": 5
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            },
+            {
+                "type": "pie",
+                "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u6bd4\u4f8b",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "\u5728\u5efa\u5de5\u7a0b",
+                        "value": 13.72869
+                    },
+                    {
+                        "name": "\u957f\u671f\u80a1\u6743\u6295\u8d44",
+                        "value": 16.84909
+                    },
+                    {
+                        "name": "\u65e0\u5f62\u8d44\u4ea7",
+                        "value": 80.94542
+                    },
+                    {
+                        "name": "\u56fa\u5b9a\u8d44\u4ea7",
+                        "value": 114.37011
+                    },
+                    {
+                        "name": "\u5176\u4ed6\u975e\u6d41\u52a8\u8d44\u4ea7",
+                        "value": 183.03009
+                    }
+                ],
+                "radius": [
+                    "37%",
+                    "47%"
+                ],
+                "center": [
+                    "78%",
+                    "50%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8,
+                    "fontSize": 10,
+                    "formatter": "{b}\n{d}%"
+                },
+                "tooltip": {
+                    "show": true,
+                    "trigger": "item",
+                    "triggerOn": "mousemove|click",
+                    "axisPointer": {
+                        "type": "line"
+                    },
+                    "showContent": true,
+                    "alwaysShowContent": false,
+                    "showDelay": 0,
+                    "hideDelay": 100,
+                    "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                    "textStyle": {
+                        "fontSize": 14
+                    },
+                    "borderWidth": 0,
+                    "padding": 5
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": false,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "playInterval": 1000,
+            "bottom": "10%",
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                        "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                        "\u9884\u4ed8\u6b3e\u9879",
+                        "\u5176\u4ed6\u6d41\u52a8\u8d44\u4ea7",
+                        "\u5b58\u8d27",
+                        "\u5e94\u6536\u7968\u636e\u53ca\u5e94\u6536\u8d26\u6b3e",
+                        "\u8d27\u5e01\u8d44\u91d1",
+                        "\u5728\u5efa\u5de5\u7a0b",
+                        "\u957f\u671f\u80a1\u6743\u6295\u8d44",
+                        "\u65e0\u5f62\u8d44\u4ea7",
+                        "\u56fa\u5b9a\u8d44\u4ea7",
+                        "\u5176\u4ed6\u975e\u6d41\u52a8\u8d44\u4ea7"
+                    ],
+                    "selected": {},
+                    "type": "scroll",
+                    "show": true,
+                    "left": "25%",
+                    "right": "20%",
+                    "top": "10%",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "name": "\u603b\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                            "value": 1082.30589
+                        },
+                        {
+                            "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                            "value": 357.31626
+                        }
+                    ],
+                    "radius": "45%",
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u6d41\u52a8\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u9884\u4ed8\u6b3e\u9879",
+                            "value": 5.91664
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u6d41\u52a8\u8d44\u4ea7",
+                            "value": 215.98679
+                        },
+                        {
+                            "name": "\u5b58\u8d27",
+                            "value": 262.34139
+                        },
+                        {
+                            "name": "\u5e94\u6536\u7968\u636e\u53ca\u5e94\u6536\u8d26\u6b3e",
+                            "value": 263.98228
+                        },
+                        {
+                            "name": "\u8d27\u5e01\u8d44\u91d1",
+                            "value": 334.07879
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "22%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5728\u5efa\u5de5\u7a0b",
+                            "value": 14.72986
+                        },
+                        {
+                            "name": "\u957f\u671f\u80a1\u6743\u6295\u8d44",
+                            "value": 39.60597
+                        },
+                        {
+                            "name": "\u65e0\u5f62\u8d44\u4ea7",
+                            "value": 47.41615
+                        },
+                        {
+                            "name": "\u56fa\u5b9a\u8d44\u4ea7",
+                            "value": 86.94456
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u975e\u6d41\u52a8\u8d44\u4ea7",
+                            "value": 168.61972
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "78%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u8d44\u4ea7\u6bd4\u4f8b\u5206\u6790",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#D896F6",
+                "#427CFF",
+                "#EDCEF0",
+                "#E6B2F3",
+                "#D896F6",
+                "#A75CFB",
+                "#843EFE",
+                "#A6C3FD",
+                "#72A0FE",
+                "#568AFD",
+                "#427CFF",
+                "#2367F8"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                        "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                        "\u9884\u4ed8\u6b3e\u9879",
+                        "\u5176\u4ed6\u6d41\u52a8\u8d44\u4ea7",
+                        "\u5e94\u6536\u7968\u636e\u53ca\u5e94\u6536\u8d26\u6b3e",
+                        "\u8d27\u5e01\u8d44\u91d1",
+                        "\u5b58\u8d27",
+                        "\u5728\u5efa\u5de5\u7a0b",
+                        "\u957f\u671f\u80a1\u6743\u6295\u8d44",
+                        "\u65e0\u5f62\u8d44\u4ea7",
+                        "\u56fa\u5b9a\u8d44\u4ea7",
+                        "\u5176\u4ed6\u975e\u6d41\u52a8\u8d44\u4ea7"
+                    ],
+                    "selected": {},
+                    "type": "scroll",
+                    "show": true,
+                    "left": "25%",
+                    "right": "20%",
+                    "top": "10%",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "name": "\u603b\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                            "value": 928.47653
+                        },
+                        {
+                            "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                            "value": 365.03096
+                        }
+                    ],
+                    "radius": "45%",
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u6d41\u52a8\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u9884\u4ed8\u6b3e\u9879",
+                            "value": 6.15489
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u6d41\u52a8\u8d44\u4ea7",
+                            "value": 213.38625
+                        },
+                        {
+                            "name": "\u5e94\u6536\u7968\u636e\u53ca\u5e94\u6536\u8d26\u6b3e",
+                            "value": 215.92325
+                        },
+                        {
+                            "name": "\u8d27\u5e01\u8d44\u91d1",
+                            "value": 242.89798
+                        },
+                        {
+                            "name": "\u5b58\u8d27",
+                            "value": 250.11416
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "22%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5728\u5efa\u5de5\u7a0b",
+                            "value": 12.96044
+                        },
+                        {
+                            "name": "\u957f\u671f\u80a1\u6743\u6295\u8d44",
+                            "value": 30.15295
+                        },
+                        {
+                            "name": "\u65e0\u5f62\u8d44\u4ea7",
+                            "value": 85.58488
+                        },
+                        {
+                            "name": "\u56fa\u5b9a\u8d44\u4ea7",
+                            "value": 88.98068
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u975e\u6d41\u52a8\u8d44\u4ea7",
+                            "value": 147.35201
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "78%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u8d44\u4ea7\u6bd4\u4f8b\u5206\u6790",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#D896F6",
+                "#427CFF",
+                "#EDCEF0",
+                "#E6B2F3",
+                "#D896F6",
+                "#A75CFB",
+                "#843EFE",
+                "#A6C3FD",
+                "#72A0FE",
+                "#568AFD",
+                "#427CFF",
+                "#2367F8"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                        "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                        "\u9884\u4ed8\u6b3e\u9879",
+                        "\u5e94\u6536\u7968\u636e\u53ca\u5e94\u6536\u8d26\u6b3e",
+                        "\u5176\u4ed6\u6d41\u52a8\u8d44\u4ea7",
+                        "\u5b58\u8d27",
+                        "\u8d27\u5e01\u8d44\u91d1",
+                        "\u5728\u5efa\u5de5\u7a0b",
+                        "\u957f\u671f\u80a1\u6743\u6295\u8d44",
+                        "\u65e0\u5f62\u8d44\u4ea7",
+                        "\u56fa\u5b9a\u8d44\u4ea7",
+                        "\u5176\u4ed6\u975e\u6d41\u52a8\u8d44\u4ea7"
+                    ],
+                    "selected": {},
+                    "type": "scroll",
+                    "show": true,
+                    "left": "25%",
+                    "right": "20%",
+                    "top": "10%",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "name": "\u603b\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                            "value": 1025.67174
+                        },
+                        {
+                            "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                            "value": 386.34961
+                        }
+                    ],
+                    "radius": "45%",
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u6d41\u52a8\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u9884\u4ed8\u6b3e\u9879",
+                            "value": 4.02525
+                        },
+                        {
+                            "name": "\u5e94\u6536\u7968\u636e\u53ca\u5e94\u6536\u8d26\u6b3e",
+                            "value": 197.7828
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u6d41\u52a8\u8d44\u4ea7",
+                            "value": 213.88514
+                        },
+                        {
+                            "name": "\u5b58\u8d27",
+                            "value": 276.88508
+                        },
+                        {
+                            "name": "\u8d27\u5e01\u8d44\u91d1",
+                            "value": 333.09347
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "22%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5728\u5efa\u5de5\u7a0b",
+                            "value": 11.71716
+                        },
+                        {
+                            "name": "\u957f\u671f\u80a1\u6743\u6295\u8d44",
+                            "value": 23.27288
+                        },
+                        {
+                            "name": "\u65e0\u5f62\u8d44\u4ea7",
+                            "value": 77.1882
+                        },
+                        {
+                            "name": "\u56fa\u5b9a\u8d44\u4ea7",
+                            "value": 93.83488
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u975e\u6d41\u52a8\u8d44\u4ea7",
+                            "value": 180.33649
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "78%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u8d44\u4ea7\u6bd4\u4f8b\u5206\u6790",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#D896F6",
+                "#427CFF",
+                "#EDCEF0",
+                "#E6B2F3",
+                "#D896F6",
+                "#A75CFB",
+                "#843EFE",
+                "#A6C3FD",
+                "#72A0FE",
+                "#568AFD",
+                "#427CFF",
+                "#2367F8"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                        "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                        "\u9884\u4ed8\u6b3e\u9879",
+                        "\u5e94\u6536\u7968\u636e\u53ca\u5e94\u6536\u8d26\u6b3e",
+                        "\u5176\u4ed6\u6d41\u52a8\u8d44\u4ea7",
+                        "\u5b58\u8d27",
+                        "\u8d27\u5e01\u8d44\u91d1",
+                        "\u5728\u5efa\u5de5\u7a0b",
+                        "\u957f\u671f\u80a1\u6743\u6295\u8d44",
+                        "\u65e0\u5f62\u8d44\u4ea7",
+                        "\u56fa\u5b9a\u8d44\u4ea7",
+                        "\u5176\u4ed6\u975e\u6d41\u52a8\u8d44\u4ea7"
+                    ],
+                    "selected": {},
+                    "type": "scroll",
+                    "show": true,
+                    "left": "25%",
+                    "right": "20%",
+                    "top": "10%",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "name": "\u603b\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                            "value": 1069.77275
+                        },
+                        {
+                            "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                            "value": 436.57631
+                        }
+                    ],
+                    "radius": "45%",
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u6d41\u52a8\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u9884\u4ed8\u6b3e\u9879",
+                            "value": 3.21792
+                        },
+                        {
+                            "name": "\u5e94\u6536\u7968\u636e\u53ca\u5e94\u6536\u8d26\u6b3e",
+                            "value": 158.9102
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u6d41\u52a8\u8d44\u4ea7",
+                            "value": 214.15325
+                        },
+                        {
+                            "name": "\u5b58\u8d27",
+                            "value": 336.89306
+                        },
+                        {
+                            "name": "\u8d27\u5e01\u8d44\u91d1",
+                            "value": 356.59832
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "22%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5728\u5efa\u5de5\u7a0b",
+                            "value": 10.399
+                        },
+                        {
+                            "name": "\u957f\u671f\u80a1\u6743\u6295\u8d44",
+                            "value": 17.13803
+                        },
+                        {
+                            "name": "\u65e0\u5f62\u8d44\u4ea7",
+                            "value": 93.67282
+                        },
+                        {
+                            "name": "\u56fa\u5b9a\u8d44\u4ea7",
+                            "value": 119.13942
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u975e\u6d41\u52a8\u8d44\u4ea7",
+                            "value": 196.22704
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "78%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u8d44\u4ea7\u6bd4\u4f8b\u5206\u6790",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#D896F6",
+                "#427CFF",
+                "#EDCEF0",
+                "#E6B2F3",
+                "#D896F6",
+                "#A75CFB",
+                "#843EFE",
+                "#A6C3FD",
+                "#72A0FE",
+                "#568AFD",
+                "#427CFF",
+                "#2367F8"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                        "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                        "\u9884\u4ed8\u6b3e\u9879",
+                        "\u5e94\u6536\u7968\u636e\u53ca\u5e94\u6536\u8d26\u6b3e",
+                        "\u5176\u4ed6\u6d41\u52a8\u8d44\u4ea7",
+                        "\u5b58\u8d27",
+                        "\u8d27\u5e01\u8d44\u91d1",
+                        "\u5728\u5efa\u5de5\u7a0b",
+                        "\u957f\u671f\u80a1\u6743\u6295\u8d44",
+                        "\u65e0\u5f62\u8d44\u4ea7",
+                        "\u56fa\u5b9a\u8d44\u4ea7",
+                        "\u5176\u4ed6\u975e\u6d41\u52a8\u8d44\u4ea7"
+                    ],
+                    "selected": {},
+                    "type": "scroll",
+                    "show": true,
+                    "left": "25%",
+                    "right": "20%",
+                    "top": "10%",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "name": "\u603b\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                            "value": 1278.71085
+                        },
+                        {
+                            "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u5408\u8ba1",
+                            "value": 408.9234
+                        }
+                    ],
+                    "radius": "45%",
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u6d41\u52a8\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u9884\u4ed8\u6b3e\u9879",
+                            "value": 6.06781
+                        },
+                        {
+                            "name": "\u5e94\u6536\u7968\u636e\u53ca\u5e94\u6536\u8d26\u6b3e",
+                            "value": 175.09059
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u6d41\u52a8\u8d44\u4ea7",
+                            "value": 227.25182
+                        },
+                        {
+                            "name": "\u5b58\u8d27",
+                            "value": 363.16753
+                        },
+                        {
+                            "name": "\u8d27\u5e01\u8d44\u91d1",
+                            "value": 507.1331
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "22%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u975e\u6d41\u52a8\u8d44\u4ea7\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5728\u5efa\u5de5\u7a0b",
+                            "value": 13.72869
+                        },
+                        {
+                            "name": "\u957f\u671f\u80a1\u6743\u6295\u8d44",
+                            "value": 16.84909
+                        },
+                        {
+                            "name": "\u65e0\u5f62\u8d44\u4ea7",
+                            "value": 80.94542
+                        },
+                        {
+                            "name": "\u56fa\u5b9a\u8d44\u4ea7",
+                            "value": 114.37011
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u975e\u6d41\u52a8\u8d44\u4ea7",
+                            "value": 183.03009
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "78%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u8d44\u4ea7\u6bd4\u4f8b\u5206\u6790",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#D896F6",
+                "#427CFF",
+                "#EDCEF0",
+                "#E6B2F3",
+                "#D896F6",
+                "#A75CFB",
+                "#843EFE",
+                "#A6C3FD",
+                "#72A0FE",
+                "#568AFD",
+                "#427CFF",
+                "#2367F8"
+            ]
+        }
+    ]
+};
+        chart_equity.setOption(option_equity);
+    </script>
+<br/>                <div id="liability" class="chart-container" style="position: absolute; width: 1462px; height: 549px; top: 1091px; left: 4px;"></div>
+    <script>
+        var chart_liability = echarts.init(
+            document.getElementById('liability'), 'white', {renderer: 'canvas'});
+        var option_liability = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "pie",
+                "name": "\u603b\u8d1f\u503a\u6bd4\u4f8b",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                        "value": 786.85256
+                    },
+                    {
+                        "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                        "value": 367.90509
+                    }
+                ],
+                "radius": "45%",
+                "center": [
+                    "50%",
+                    "50%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8,
+                    "fontSize": 10,
+                    "formatter": "{b}\n{d}%"
+                },
+                "tooltip": {
+                    "show": true,
+                    "trigger": "item",
+                    "triggerOn": "mousemove|click",
+                    "axisPointer": {
+                        "type": "line"
+                    },
+                    "showContent": true,
+                    "alwaysShowContent": false,
+                    "showDelay": 0,
+                    "hideDelay": 100,
+                    "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                    "textStyle": {
+                        "fontSize": 14
+                    },
+                    "borderWidth": 0,
+                    "padding": 5
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            },
+            {
+                "type": "pie",
+                "name": "\u6d41\u52a8\u8d1f\u503a\u6bd4\u4f8b",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "\u5176\u4ed6\u6d41\u52a8\u8d1f\u503a",
+                        "value": 86.70603
+                    },
+                    {
+                        "name": "\u77ed\u671f\u501f\u6b3e",
+                        "value": 89.46935
+                    },
+                    {
+                        "name": "\u5e94\u4ed8\u804c\u5de5\u85aa\u916c",
+                        "value": 116.91423
+                    },
+                    {
+                        "name": "\u5408\u540c\u8d1f\u503a",
+                        "value": 161.01652
+                    },
+                    {
+                        "name": "\u5e94\u4ed8\u7968\u636e\u53ca\u5e94\u4ed8\u8d26\u6b3e",
+                        "value": 332.74643
+                    }
+                ],
+                "radius": [
+                    "37%",
+                    "47%"
+                ],
+                "center": [
+                    "22%",
+                    "50%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8,
+                    "fontSize": 10,
+                    "formatter": "{b}\n{d}%"
+                },
+                "tooltip": {
+                    "show": true,
+                    "trigger": "item",
+                    "triggerOn": "mousemove|click",
+                    "axisPointer": {
+                        "type": "line"
+                    },
+                    "showContent": true,
+                    "alwaysShowContent": false,
+                    "showDelay": 0,
+                    "hideDelay": 100,
+                    "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                    "textStyle": {
+                        "fontSize": 14
+                    },
+                    "borderWidth": 0,
+                    "padding": 5
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            },
+            {
+                "type": "pie",
+                "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u6bd4\u4f8b",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "\u5e94\u4ed8\u503a\u5238",
+                        "value": 0.0
+                    },
+                    {
+                        "name": "\u79df\u8d41\u8d1f\u503a",
+                        "value": 5.31983
+                    },
+                    {
+                        "name": "\u9012\u5ef6\u6536\u76ca",
+                        "value": 18.72518
+                    },
+                    {
+                        "name": "\u5176\u4ed6\u975e\u6d41\u52a8\u8d1f\u503a",
+                        "value": 44.77567
+                    },
+                    {
+                        "name": "\u957f\u671f\u501f\u6b3e",
+                        "value": 299.08441
+                    }
+                ],
+                "radius": [
+                    "37%",
+                    "47%"
+                ],
+                "center": [
+                    "78%",
+                    "50%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8,
+                    "fontSize": 10,
+                    "formatter": "{b}\n{d}%"
+                },
+                "tooltip": {
+                    "show": true,
+                    "trigger": "item",
+                    "triggerOn": "mousemove|click",
+                    "axisPointer": {
+                        "type": "line"
+                    },
+                    "showContent": true,
+                    "alwaysShowContent": false,
+                    "showDelay": 0,
+                    "hideDelay": 100,
+                    "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                    "textStyle": {
+                        "fontSize": 14
+                    },
+                    "borderWidth": 0,
+                    "padding": 5
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": false,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "playInterval": 1000,
+            "bottom": "10%",
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                        "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                        "\u5408\u540c\u8d1f\u503a",
+                        "\u5e94\u4ed8\u804c\u5de5\u85aa\u916c",
+                        "\u77ed\u671f\u501f\u6b3e",
+                        "\u5176\u4ed6\u6d41\u52a8\u8d1f\u503a",
+                        "\u5e94\u4ed8\u7968\u636e\u53ca\u5e94\u4ed8\u8d26\u6b3e",
+                        "\u5e94\u4ed8\u503a\u5238",
+                        "\u79df\u8d41\u8d1f\u503a",
+                        "\u9012\u5ef6\u6536\u76ca",
+                        "\u957f\u671f\u501f\u6b3e",
+                        "\u5176\u4ed6\u975e\u6d41\u52a8\u8d1f\u503a"
+                    ],
+                    "selected": {},
+                    "type": "scroll",
+                    "show": true,
+                    "left": "25%",
+                    "right": "20%",
+                    "top": "10%",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "name": "\u603b\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                            "value": 875.94947
+                        },
+                        {
+                            "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                            "value": 109.87121
+                        }
+                    ],
+                    "radius": "45%",
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u6d41\u52a8\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5408\u540c\u8d1f\u503a",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "\u5e94\u4ed8\u804c\u5de5\u85aa\u916c",
+                            "value": 73.89544
+                        },
+                        {
+                            "name": "\u77ed\u671f\u501f\u6b3e",
+                            "value": 147.19023
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u6d41\u52a8\u8d1f\u503a",
+                            "value": 310.23313
+                        },
+                        {
+                            "name": "\u5e94\u4ed8\u7968\u636e\u53ca\u5e94\u4ed8\u8d26\u6b3e",
+                            "value": 344.63067
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "22%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5e94\u4ed8\u503a\u5238",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "\u79df\u8d41\u8d1f\u503a",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "\u9012\u5ef6\u6536\u76ca",
+                            "value": 12.24978
+                        },
+                        {
+                            "name": "\u957f\u671f\u501f\u6b3e",
+                            "value": 30.02146
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u975e\u6d41\u52a8\u8d1f\u503a",
+                            "value": 67.59997
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "78%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u8d1f\u503a\u6bd4\u4f8b\u5206\u6790",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#D896F6",
+                "#427CFF",
+                "#EDCEF0",
+                "#E6B2F3",
+                "#D896F6",
+                "#A75CFB",
+                "#843EFE",
+                "#A6C3FD",
+                "#72A0FE",
+                "#568AFD",
+                "#427CFF",
+                "#2367F8"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                        "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                        "\u5e94\u4ed8\u804c\u5de5\u85aa\u916c",
+                        "\u5408\u540c\u8d1f\u503a",
+                        "\u5176\u4ed6\u6d41\u52a8\u8d1f\u503a",
+                        "\u77ed\u671f\u501f\u6b3e",
+                        "\u5e94\u4ed8\u7968\u636e\u53ca\u5e94\u4ed8\u8d26\u6b3e",
+                        "\u5e94\u4ed8\u503a\u5238",
+                        "\u79df\u8d41\u8d1f\u503a",
+                        "\u9012\u5ef6\u6536\u76ca",
+                        "\u957f\u671f\u501f\u6b3e",
+                        "\u5176\u4ed6\u975e\u6d41\u52a8\u8d1f\u503a"
+                    ],
+                    "selected": {},
+                    "type": "scroll",
+                    "show": true,
+                    "left": "25%",
+                    "right": "20%",
+                    "top": "10%",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "name": "\u603b\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                            "value": 893.76798
+                        },
+                        {
+                            "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                            "value": 70.13276
+                        }
+                    ],
+                    "radius": "45%",
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u6d41\u52a8\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5e94\u4ed8\u804c\u5de5\u85aa\u916c",
+                            "value": 62.59639
+                        },
+                        {
+                            "name": "\u5408\u540c\u8d1f\u503a",
+                            "value": 144.79355
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u6d41\u52a8\u8d1f\u503a",
+                            "value": 174.55086
+                        },
+                        {
+                            "name": "\u77ed\u671f\u501f\u6b3e",
+                            "value": 237.39614
+                        },
+                        {
+                            "name": "\u5e94\u4ed8\u7968\u636e\u53ca\u5e94\u4ed8\u8d26\u6b3e",
+                            "value": 274.43104
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "22%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5e94\u4ed8\u503a\u5238",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "\u79df\u8d41\u8d1f\u503a",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "\u9012\u5ef6\u6536\u76ca",
+                            "value": 6.91608
+                        },
+                        {
+                            "name": "\u957f\u671f\u501f\u6b3e",
+                            "value": 23.66568
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u975e\u6d41\u52a8\u8d1f\u503a",
+                            "value": 39.551
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "78%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u8d1f\u503a\u6bd4\u4f8b\u5206\u6790",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#D896F6",
+                "#427CFF",
+                "#EDCEF0",
+                "#E6B2F3",
+                "#D896F6",
+                "#A75CFB",
+                "#843EFE",
+                "#A6C3FD",
+                "#72A0FE",
+                "#568AFD",
+                "#427CFF",
+                "#2367F8"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                        "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                        "\u5176\u4ed6\u6d41\u52a8\u8d1f\u503a",
+                        "\u5e94\u4ed8\u804c\u5de5\u85aa\u916c",
+                        "\u5408\u540c\u8d1f\u503a",
+                        "\u77ed\u671f\u501f\u6b3e",
+                        "\u5e94\u4ed8\u7968\u636e\u53ca\u5e94\u4ed8\u8d26\u6b3e",
+                        "\u5e94\u4ed8\u503a\u5238",
+                        "\u79df\u8d41\u8d1f\u503a",
+                        "\u9012\u5ef6\u6536\u76ca",
+                        "\u5176\u4ed6\u975e\u6d41\u52a8\u8d1f\u503a",
+                        "\u957f\u671f\u501f\u6b3e"
+                    ],
+                    "selected": {},
+                    "type": "scroll",
+                    "show": true,
+                    "left": "25%",
+                    "right": "20%",
+                    "top": "10%",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "name": "\u603b\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                            "value": 863.70516
+                        },
+                        {
+                            "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                            "value": 168.77321
+                        }
+                    ],
+                    "radius": "45%",
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u6d41\u52a8\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5176\u4ed6\u6d41\u52a8\u8d1f\u503a",
+                            "value": 85.24938
+                        },
+                        {
+                            "name": "\u5e94\u4ed8\u804c\u5de5\u85aa\u916c",
+                            "value": 89.54005
+                        },
+                        {
+                            "name": "\u5408\u540c\u8d1f\u503a",
+                            "value": 145.17057
+                        },
+                        {
+                            "name": "\u77ed\u671f\u501f\u6b3e",
+                            "value": 266.45966
+                        },
+                        {
+                            "name": "\u5e94\u4ed8\u7968\u636e\u53ca\u5e94\u4ed8\u8d26\u6b3e",
+                            "value": 277.2855
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "22%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5e94\u4ed8\u503a\u5238",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "\u79df\u8d41\u8d1f\u503a",
+                            "value": 6.45294
+                        },
+                        {
+                            "name": "\u9012\u5ef6\u6536\u76ca",
+                            "value": 26.56024
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u975e\u6d41\u52a8\u8d1f\u503a",
+                            "value": 35.3091
+                        },
+                        {
+                            "name": "\u957f\u671f\u501f\u6b3e",
+                            "value": 100.45093
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "78%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u8d1f\u503a\u6bd4\u4f8b\u5206\u6790",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#D896F6",
+                "#427CFF",
+                "#EDCEF0",
+                "#E6B2F3",
+                "#D896F6",
+                "#A75CFB",
+                "#843EFE",
+                "#A6C3FD",
+                "#72A0FE",
+                "#568AFD",
+                "#427CFF",
+                "#2367F8"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                        "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                        "\u5176\u4ed6\u6d41\u52a8\u8d1f\u503a",
+                        "\u5e94\u4ed8\u804c\u5de5\u85aa\u916c",
+                        "\u77ed\u671f\u501f\u6b3e",
+                        "\u5408\u540c\u8d1f\u503a",
+                        "\u5e94\u4ed8\u7968\u636e\u53ca\u5e94\u4ed8\u8d26\u6b3e",
+                        "\u5e94\u4ed8\u503a\u5238",
+                        "\u79df\u8d41\u8d1f\u503a",
+                        "\u9012\u5ef6\u6536\u76ca",
+                        "\u5176\u4ed6\u975e\u6d41\u52a8\u8d1f\u503a",
+                        "\u957f\u671f\u501f\u6b3e"
+                    ],
+                    "selected": {},
+                    "type": "scroll",
+                    "show": true,
+                    "left": "25%",
+                    "right": "20%",
+                    "top": "10%",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "name": "\u603b\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                            "value": 743.94975
+                        },
+                        {
+                            "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                            "value": 301.17425
+                        }
+                    ],
+                    "radius": "45%",
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u6d41\u52a8\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5176\u4ed6\u6d41\u52a8\u8d1f\u503a",
+                            "value": 97.76359
+                        },
+                        {
+                            "name": "\u5e94\u4ed8\u804c\u5de5\u85aa\u916c",
+                            "value": 105.45495
+                        },
+                        {
+                            "name": "\u77ed\u671f\u501f\u6b3e",
+                            "value": 105.5916
+                        },
+                        {
+                            "name": "\u5408\u540c\u8d1f\u503a",
+                            "value": 149.98172
+                        },
+                        {
+                            "name": "\u5e94\u4ed8\u7968\u636e\u53ca\u5e94\u4ed8\u8d26\u6b3e",
+                            "value": 285.15789
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "22%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5e94\u4ed8\u503a\u5238",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "\u79df\u8d41\u8d1f\u503a",
+                            "value": 7.18186
+                        },
+                        {
+                            "name": "\u9012\u5ef6\u6536\u76ca",
+                            "value": 22.28313
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u975e\u6d41\u52a8\u8d1f\u503a",
+                            "value": 45.56622
+                        },
+                        {
+                            "name": "\u957f\u671f\u501f\u6b3e",
+                            "value": 226.14304
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "78%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u8d1f\u503a\u6bd4\u4f8b\u5206\u6790",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#D896F6",
+                "#427CFF",
+                "#EDCEF0",
+                "#E6B2F3",
+                "#D896F6",
+                "#A75CFB",
+                "#843EFE",
+                "#A6C3FD",
+                "#72A0FE",
+                "#568AFD",
+                "#427CFF",
+                "#2367F8"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                        "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                        "\u5176\u4ed6\u6d41\u52a8\u8d1f\u503a",
+                        "\u77ed\u671f\u501f\u6b3e",
+                        "\u5e94\u4ed8\u804c\u5de5\u85aa\u916c",
+                        "\u5408\u540c\u8d1f\u503a",
+                        "\u5e94\u4ed8\u7968\u636e\u53ca\u5e94\u4ed8\u8d26\u6b3e",
+                        "\u5e94\u4ed8\u503a\u5238",
+                        "\u79df\u8d41\u8d1f\u503a",
+                        "\u9012\u5ef6\u6536\u76ca",
+                        "\u5176\u4ed6\u975e\u6d41\u52a8\u8d1f\u503a",
+                        "\u957f\u671f\u501f\u6b3e"
+                    ],
+                    "selected": {},
+                    "type": "scroll",
+                    "show": true,
+                    "left": "25%",
+                    "right": "20%",
+                    "top": "10%",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "name": "\u603b\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                            "value": 786.85256
+                        },
+                        {
+                            "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u5408\u8ba1",
+                            "value": 367.90509
+                        }
+                    ],
+                    "radius": "45%",
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u6d41\u52a8\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5176\u4ed6\u6d41\u52a8\u8d1f\u503a",
+                            "value": 86.70603
+                        },
+                        {
+                            "name": "\u77ed\u671f\u501f\u6b3e",
+                            "value": 89.46935
+                        },
+                        {
+                            "name": "\u5e94\u4ed8\u804c\u5de5\u85aa\u916c",
+                            "value": 116.91423
+                        },
+                        {
+                            "name": "\u5408\u540c\u8d1f\u503a",
+                            "value": 161.01652
+                        },
+                        {
+                            "name": "\u5e94\u4ed8\u7968\u636e\u53ca\u5e94\u4ed8\u8d26\u6b3e",
+                            "value": 332.74643
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "22%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u975e\u6d41\u52a8\u8d1f\u503a\u6bd4\u4f8b",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5e94\u4ed8\u503a\u5238",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "\u79df\u8d41\u8d1f\u503a",
+                            "value": 5.31983
+                        },
+                        {
+                            "name": "\u9012\u5ef6\u6536\u76ca",
+                            "value": 18.72518
+                        },
+                        {
+                            "name": "\u5176\u4ed6\u975e\u6d41\u52a8\u8d1f\u503a",
+                            "value": 44.77567
+                        },
+                        {
+                            "name": "\u957f\u671f\u501f\u6b3e",
+                            "value": 299.08441
+                        }
+                    ],
+                    "radius": [
+                        "37%",
+                        "47%"
+                    ],
+                    "center": [
+                        "78%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 10,
+                        "formatter": "{b}\n{d}%"
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "formatter": function(params){                color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                return params.seriesName + '<br />' + color_icon + params.color + '\"></span>' + params.name + ': ' + Number(params.value).toFixed(3) + '\u4ebf';             }            ,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u8d1f\u503a\u6bd4\u4f8b\u5206\u6790",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#D896F6",
+                "#427CFF",
+                "#EDCEF0",
+                "#E6B2F3",
+                "#D896F6",
+                "#A75CFB",
+                "#843EFE",
+                "#A6C3FD",
+                "#72A0FE",
+                "#568AFD",
+                "#427CFF",
+                "#2367F8"
+            ]
+        }
+    ]
+};
+        chart_liability.setOption(option_liability);
+    </script>
+<br/>    </div>
+    <script>
+            $('#abs').css('border-style', 'dashed').css('border-width', '0px');$("#abs>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#abs'), function() { chart_abs.resize()});
+            $('#equity_liability').css('border-style', 'dashed').css('border-width', '0px');$("#equity_liability>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#equity_liability'), function() { chart_equity_liability.resize()});
+            $('#equity').css('border-style', 'dashed').css('border-width', '0px');$("#equity>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#equity'), function() { chart_equity.resize()});
+            $('#liability').css('border-style', 'dashed').css('border-width', '0px');$("#liability>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#liability'), function() { chart_liability.resize()});
+            var charts_id = ['abs','equity_liability','equity','liability'];
+function downloadCfg () {
+    const fileName = 'chart_config.json'
+    let downLink = document.createElement('a')
+    downLink.download = fileName
+
+    let result = []
+    for(let i=0; i<charts_id.length; i++) {
+        chart = $('#'+charts_id[i])
+        result.push({
+            cid: charts_id[i],
+            width: chart.css("width"),
+            height: chart.css("height"),
+            top: chart.offset().top + "px",
+            left: chart.offset().left + "px"
+        })
+    }
+
+    let blob = new Blob([JSON.stringify(result)])
+    downLink.href = URL.createObjectURL(blob)
+    document.body.appendChild(downLink)
+    downLink.click()
+    document.body.removeChild(downLink)
+}
+    </script>
+</body>
+</html>

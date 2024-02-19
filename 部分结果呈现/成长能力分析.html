@@ -1,0 +1,3316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>成长能力</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/ResizeSensor.js"></script>
+
+            <link rel="stylesheet"  href="https://assets.pyecharts.org/assets/jquery-ui.css">
+
+</head>
+<body>
+    <style>.box {  }; </style>
+        
+    <div class="box">
+                <div id="营业收入同比增长率" class="chart-container" style="position: absolute; width: 719px; height: 448px; top: 31px; left: 8px;"></div>
+    <script>
+        var chart_营业收入同比增长率 = echarts.init(
+            document.getElementById('营业收入同比增长率'), 'white', {renderer: 'canvas'});
+        var option_营业收入同比增长率 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u4f01\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    7.49
+                ],
+                [
+                    "2018",
+                    -21.41
+                ],
+                [
+                    "2019",
+                    6.11
+                ],
+                [
+                    "2020",
+                    11.81
+                ],
+                [
+                    "2021",
+                    12.88
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "rgb(107,162,255)"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u884c\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    10.0
+                ],
+                [
+                    "2018",
+                    -12.18
+                ],
+                [
+                    "2019",
+                    2.87
+                ],
+                [
+                    "2020",
+                    4.87
+                ],
+                [
+                    "2021",
+                    15.21
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#A75CFB"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    -2.51
+                ],
+                [
+                    "2018",
+                    -9.23
+                ],
+                [
+                    "2019",
+                    3.24
+                ],
+                [
+                    "2020",
+                    6.94
+                ],
+                [
+                    "2021",
+                    -2.33
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "rgb(255,178,255)"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4f01\u4e1a",
+                "\u884c\u4e1a",
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)"
+            ],
+            "selected": {
+                "\u4f01\u4e1a": true,
+                "\u884c\u4e1a": true,
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)": true
+            },
+            "show": true,
+            "left": "20%",
+            "top": "6.5%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function(params){            color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';            form = params[0].name + '\u5e74' + '<br />';            for(i=0; i<params.length; i++){            form += color_icon + params[i].color + '\"></span>'+ params[i].seriesName + '\uff1a' + params[i].data[1] + '%' + '<br />';            }            return form;            }            ,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u5e74\u4efd",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6570\n\u503c",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 40,
+            "nameRotate": 0,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}%"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u8425\u4e1a\u6536\u5165\u540c\u6bd4\u589e\u957f\u7387",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": false,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "bar"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "type": "clear",
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    },
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "-7px",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_营业收入同比增长率.setOption(option_营业收入同比增长率);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="6170738d219e4ac9917d6f940912f603" class="chart-container" style="position: absolute; width: 504px; height: 261px; top: 481px; left: 58px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>企业</td>
+            <td>7.49%</td>
+            <td>-21.41%</td>
+            <td>6.11%</td>
+            <td>11.81%</td>
+            <td>12.88%</td>
+        </tr>
+        <tr>
+            <td>行业</td>
+            <td>10.0%</td>
+            <td>-12.18%</td>
+            <td>2.87%</td>
+            <td>4.87%</td>
+            <td>15.21%</td>
+        </tr>
+        <tr>
+            <td>差额</td>
+            <td>-2.51%</td>
+            <td>-9.23%</td>
+            <td>3.24%</td>
+            <td>6.94%</td>
+            <td>-2.33%</td>
+        </tr>
+        <tr>
+            <td>差额百分比</td>
+            <td>-25.1%</td>
+            <td>-75.78%</td>
+            <td>*112.89%</td>
+            <td>*142.51%</td>
+            <td>-15.32%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>                <div id="营业利润同比增长率" class="chart-container" style="position: absolute; width: 719px; height: 448px; top: 30.600000381469727px; left: 737px;"></div>
+    <script>
+        var chart_营业利润同比增长率 = echarts.init(
+            document.getElementById('营业利润同比增长率'), 'white', {renderer: 'canvas'});
+        var option_营业利润同比增长率 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u4f01\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    479.38
+                ],
+                [
+                    "2018",
+                    -109.02
+                ],
+                [
+                    "2019",
+                    1334.12
+                ],
+                [
+                    "2020",
+                    -27.56
+                ],
+                [
+                    "2021",
+                    58.59
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "rgb(107,162,255)"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u884c\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    930.41
+                ],
+                [
+                    "2018",
+                    -65.19
+                ],
+                [
+                    "2019",
+                    313.11
+                ],
+                [
+                    "2020",
+                    -44.51
+                ],
+                [
+                    "2021",
+                    94.97
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#A75CFB"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    -451.03
+                ],
+                [
+                    "2018",
+                    -43.83
+                ],
+                [
+                    "2019",
+                    1021.01
+                ],
+                [
+                    "2020",
+                    16.95
+                ],
+                [
+                    "2021",
+                    -36.38
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "rgb(255,178,255)"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4f01\u4e1a",
+                "\u884c\u4e1a",
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)"
+            ],
+            "selected": {
+                "\u4f01\u4e1a": true,
+                "\u884c\u4e1a": true,
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)": true
+            },
+            "show": true,
+            "left": "20%",
+            "top": "6.5%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function(params){            color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';            form = params[0].name + '\u5e74' + '<br />';            for(i=0; i<params.length; i++){            form += color_icon + params[i].color + '\"></span>'+ params[i].seriesName + '\uff1a' + params[i].data[1] + '%' + '<br />';            }            return form;            }            ,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u5e74\u4efd",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6570\n\u503c",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 40,
+            "nameRotate": 0,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}%"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u8425\u4e1a\u5229\u6da6\u540c\u6bd4\u589e\u957f\u7387",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": false,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "bar"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "type": "clear",
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    },
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "-7px",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_营业利润同比增长率.setOption(option_营业利润同比增长率);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="c1a8ee2d5680497f945eaaa708b4f2a6" class="chart-container" style="position: absolute; width: 513px; height: 261px; top: 479.6000061035156px; left: 787px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>企业</td>
+            <td>479.38%</td>
+            <td>-109.02%</td>
+            <td>1334.12%</td>
+            <td>-27.56%</td>
+            <td>58.59%</td>
+        </tr>
+        <tr>
+            <td>行业</td>
+            <td>930.41%</td>
+            <td>-65.19%</td>
+            <td>313.11%</td>
+            <td>-44.51%</td>
+            <td>94.97%</td>
+        </tr>
+        <tr>
+            <td>差额</td>
+            <td>-451.03%</td>
+            <td>-43.83%</td>
+            <td>1021.01%</td>
+            <td>16.95%</td>
+            <td>-36.38%</td>
+        </tr>
+        <tr>
+            <td>差额百分比</td>
+            <td>-48.48%</td>
+            <td>-67.23%</td>
+            <td>*326.09%</td>
+            <td>38.08%</td>
+            <td>-38.31%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>                <div id="利润总额同比增长率" class="chart-container" style="position: absolute; width: 717px; height: 447px; top: 800.2000122070312px; left: 10px;"></div>
+    <script>
+        var chart_利润总额同比增长率 = echarts.init(
+            document.getElementById('利润总额同比增长率'), 'white', {renderer: 'canvas'});
+        var option_利润总额同比增长率 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u4f01\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    975.14
+                ],
+                [
+                    "2018",
+                    -209.4
+                ],
+                [
+                    "2019",
+                    197.43
+                ],
+                [
+                    "2020",
+                    -29.29
+                ],
+                [
+                    "2021",
+                    67.82
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "rgb(107,162,255)"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u884c\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    1070.61
+                ],
+                [
+                    "2018",
+                    -178.76
+                ],
+                [
+                    "2019",
+                    275.97
+                ],
+                [
+                    "2020",
+                    -47.07
+                ],
+                [
+                    "2021",
+                    108.73
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#A75CFB"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    -95.47
+                ],
+                [
+                    "2018",
+                    -30.64
+                ],
+                [
+                    "2019",
+                    -78.54
+                ],
+                [
+                    "2020",
+                    17.78
+                ],
+                [
+                    "2021",
+                    -40.91
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "rgb(255,178,255)"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4f01\u4e1a",
+                "\u884c\u4e1a",
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)"
+            ],
+            "selected": {
+                "\u4f01\u4e1a": true,
+                "\u884c\u4e1a": true,
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)": true
+            },
+            "show": true,
+            "left": "20%",
+            "top": "6.5%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function(params){            color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';            form = params[0].name + '\u5e74' + '<br />';            for(i=0; i<params.length; i++){            form += color_icon + params[i].color + '\"></span>'+ params[i].seriesName + '\uff1a' + params[i].data[1] + '%' + '<br />';            }            return form;            }            ,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u5e74\u4efd",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6570\n\u503c",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 40,
+            "nameRotate": 0,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}%"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u5229\u6da6\u603b\u989d\u540c\u6bd4\u589e\u957f\u7387",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": false,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "bar"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "type": "clear",
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    },
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "-7px",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_利润总额同比增长率.setOption(option_利润总额同比增长率);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="f370526185d942aa801b45e7c54c6367" class="chart-container" style="position: absolute; width: 564px; height: 261px; top: 1249.2000732421875px; left: 57px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>企业</td>
+            <td>975.14%</td>
+            <td>-209.4%</td>
+            <td>197.43%</td>
+            <td>-29.29%</td>
+            <td>67.82%</td>
+        </tr>
+        <tr>
+            <td>行业</td>
+            <td>1070.61%</td>
+            <td>-178.76%</td>
+            <td>275.97%</td>
+            <td>-47.07%</td>
+            <td>108.73%</td>
+        </tr>
+        <tr>
+            <td>差额</td>
+            <td>-95.47%</td>
+            <td>-30.64%</td>
+            <td>-78.54%</td>
+            <td>17.78%</td>
+            <td>-40.91%</td>
+        </tr>
+        <tr>
+            <td>差额百分比</td>
+            <td>-8.92%</td>
+            <td>-17.14%</td>
+            <td>-28.46%</td>
+            <td>37.77%</td>
+            <td>-37.63%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>                <div id="归属母公司股东的净利润同比增长率" class="chart-container" style="position: absolute; width: 717px; height: 446px; top: 800.7999877929688px; left: 740px;"></div>
+    <script>
+        var chart_归属母公司股东的净利润同比增长率 = echarts.init(
+            document.getElementById('归属母公司股东的净利润同比增长率'), 'white', {renderer: 'canvas'});
+        var option_归属母公司股东的净利润同比增长率 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u4f01\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    293.78
+                ],
+                [
+                    "2018",
+                    -252.88
+                ],
+                [
+                    "2019",
+                    173.71
+                ],
+                [
+                    "2020",
+                    -17.25
+                ],
+                [
+                    "2021",
+                    59.94
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "rgb(107,162,255)"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u884c\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    233.78
+                ],
+                [
+                    "2018",
+                    -234.85
+                ],
+                [
+                    "2019",
+                    226.05
+                ],
+                [
+                    "2020",
+                    -38.04
+                ],
+                [
+                    "2021",
+                    88.99
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#A75CFB"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    60.0
+                ],
+                [
+                    "2018",
+                    -18.03
+                ],
+                [
+                    "2019",
+                    -52.34
+                ],
+                [
+                    "2020",
+                    20.79
+                ],
+                [
+                    "2021",
+                    -29.05
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "rgb(255,178,255)"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4f01\u4e1a",
+                "\u884c\u4e1a",
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)"
+            ],
+            "selected": {
+                "\u4f01\u4e1a": true,
+                "\u884c\u4e1a": true,
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)": true
+            },
+            "show": true,
+            "left": "20%",
+            "top": "6.5%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function(params){            color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';            form = params[0].name + '\u5e74' + '<br />';            for(i=0; i<params.length; i++){            form += color_icon + params[i].color + '\"></span>'+ params[i].seriesName + '\uff1a' + params[i].data[1] + '%' + '<br />';            }            return form;            }            ,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u5e74\u4efd",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6570\n\u503c",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 40,
+            "nameRotate": 0,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}%"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u5f52\u5c5e\u6bcd\u516c\u53f8\u80a1\u4e1c\u7684\u51c0\u5229\u6da6\u540c\u6bd4\u589e\u957f\u7387",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": false,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "bar"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "type": "clear",
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    },
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "-7px",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_归属母公司股东的净利润同比增长率.setOption(option_归属母公司股东的净利润同比增长率);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="dc11040a30d3488d9ecf585cbeea832d" class="chart-container" style="position: absolute; width: 519px; height: 261px; top: 1247.800048828125px; left: 786px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>企业</td>
+            <td>293.78%</td>
+            <td>-252.88%</td>
+            <td>173.71%</td>
+            <td>-17.25%</td>
+            <td>59.94%</td>
+        </tr>
+        <tr>
+            <td>行业</td>
+            <td>233.78%</td>
+            <td>-234.85%</td>
+            <td>226.05%</td>
+            <td>-38.04%</td>
+            <td>88.99%</td>
+        </tr>
+        <tr>
+            <td>差额</td>
+            <td>60.0%</td>
+            <td>-18.03%</td>
+            <td>-52.34%</td>
+            <td>20.79%</td>
+            <td>-29.05%</td>
+        </tr>
+        <tr>
+            <td>差额百分比</td>
+            <td>25.67%</td>
+            <td>-7.68%</td>
+            <td>-23.15%</td>
+            <td>54.65%</td>
+            <td>-32.64%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>                <div id="净资产收益率同比增长率" class="chart-container" style="position: absolute; width: 716px; height: 447px; top: 1569.4000244140625px; left: 12px;"></div>
+    <script>
+        var chart_净资产收益率同比增长率 = echarts.init(
+            document.getElementById('净资产收益率同比增长率'), 'white', {renderer: 'canvas'});
+        var option_净资产收益率同比增长率 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u4f01\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    261.66
+                ],
+                [
+                    "2018",
+                    -311.29
+                ],
+                [
+                    "2019",
+                    158.55
+                ],
+                [
+                    "2020",
+                    -44.91
+                ],
+                [
+                    "2021",
+                    34.51
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "rgb(107,162,255)"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u884c\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    227.76
+                ],
+                [
+                    "2018",
+                    -236.97
+                ],
+                [
+                    "2019",
+                    224.81
+                ],
+                [
+                    "2020",
+                    -49.65
+                ],
+                [
+                    "2021",
+                    58.37
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#A75CFB"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    33.9
+                ],
+                [
+                    "2018",
+                    -74.32
+                ],
+                [
+                    "2019",
+                    -66.26
+                ],
+                [
+                    "2020",
+                    4.74
+                ],
+                [
+                    "2021",
+                    -23.86
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "rgb(255,178,255)"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4f01\u4e1a",
+                "\u884c\u4e1a",
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)"
+            ],
+            "selected": {
+                "\u4f01\u4e1a": true,
+                "\u884c\u4e1a": true,
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)": true
+            },
+            "show": true,
+            "left": "20%",
+            "top": "6.5%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function(params){            color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';            form = params[0].name + '\u5e74' + '<br />';            for(i=0; i<params.length; i++){            form += color_icon + params[i].color + '\"></span>'+ params[i].seriesName + '\uff1a' + params[i].data[1] + '%' + '<br />';            }            return form;            }            ,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u5e74\u4efd",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6570\n\u503c",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 40,
+            "nameRotate": 0,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}%"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u51c0\u8d44\u4ea7\u6536\u76ca\u7387\u540c\u6bd4\u589e\u957f\u7387",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": false,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "bar"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "type": "clear",
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    },
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "-7px",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_净资产收益率同比增长率.setOption(option_净资产收益率同比增长率);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="397462993d5640d2800e0dd8388ce99f" class="chart-container" style="position: absolute; width: 534px; height: 261px; top: 2017.4000244140625px; left: 59px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>企业</td>
+            <td>261.66%</td>
+            <td>-311.29%</td>
+            <td>158.55%</td>
+            <td>-44.91%</td>
+            <td>34.51%</td>
+        </tr>
+        <tr>
+            <td>行业</td>
+            <td>227.76%</td>
+            <td>-236.97%</td>
+            <td>224.81%</td>
+            <td>-49.65%</td>
+            <td>58.37%</td>
+        </tr>
+        <tr>
+            <td>差额</td>
+            <td>33.9%</td>
+            <td>-74.32%</td>
+            <td>-66.26%</td>
+            <td>4.74%</td>
+            <td>-23.86%</td>
+        </tr>
+        <tr>
+            <td>差额百分比</td>
+            <td>14.88%</td>
+            <td>-31.36%</td>
+            <td>-29.47%</td>
+            <td>9.55%</td>
+            <td>-40.88%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>                <div id="总资产同比增长率" class="chart-container" style="position: absolute; width: 716px; height: 447px; top: 1569px; left: 740px;"></div>
+    <script>
+        var chart_总资产同比增长率 = echarts.init(
+            document.getElementById('总资产同比增长率'), 'white', {renderer: 'canvas'});
+        var option_总资产同比增长率 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u4f01\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    1.64
+                ],
+                [
+                    "2018",
+                    -10.15
+                ],
+                [
+                    "2019",
+                    9.16
+                ],
+                [
+                    "2020",
+                    6.68
+                ],
+                [
+                    "2021",
+                    12.03
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "rgb(107,162,255)"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u884c\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    8.36
+                ],
+                [
+                    "2018",
+                    -8.92
+                ],
+                [
+                    "2019",
+                    7.89
+                ],
+                [
+                    "2020",
+                    5.01
+                ],
+                [
+                    "2021",
+                    10.39
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#A75CFB"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    -6.72
+                ],
+                [
+                    "2018",
+                    -1.23
+                ],
+                [
+                    "2019",
+                    1.27
+                ],
+                [
+                    "2020",
+                    1.67
+                ],
+                [
+                    "2021",
+                    1.64
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {            form = params.value[1] + '%';            return form;        }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "rgb(255,178,255)"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4f01\u4e1a",
+                "\u884c\u4e1a",
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)"
+            ],
+            "selected": {
+                "\u4f01\u4e1a": true,
+                "\u884c\u4e1a": true,
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)": true
+            },
+            "show": true,
+            "left": "20%",
+            "top": "6.5%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function(params){            color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';            form = params[0].name + '\u5e74' + '<br />';            for(i=0; i<params.length; i++){            form += color_icon + params[i].color + '\"></span>'+ params[i].seriesName + '\uff1a' + params[i].data[1] + '%' + '<br />';            }            return form;            }            ,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u5e74\u4efd",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6570\n\u503c",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 40,
+            "nameRotate": 0,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}%"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u603b\u8d44\u4ea7\u540c\u6bd4\u589e\u957f\u7387",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": false,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "bar"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "type": "clear",
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    },
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "-7px",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_总资产同比增长率.setOption(option_总资产同比增长率);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="be2ffc59727b4135966915d0e4a218b0" class="chart-container" style="position: absolute; width: 568px; height: 261px; top: 2018px; left: 786px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>企业</td>
+            <td>1.64%</td>
+            <td>-10.15%</td>
+            <td>9.16%</td>
+            <td>6.68%</td>
+            <td>12.03%</td>
+        </tr>
+        <tr>
+            <td>行业</td>
+            <td>8.36%</td>
+            <td>-8.92%</td>
+            <td>7.89%</td>
+            <td>5.01%</td>
+            <td>10.39%</td>
+        </tr>
+        <tr>
+            <td>差额</td>
+            <td>-6.72%</td>
+            <td>-1.23%</td>
+            <td>1.27%</td>
+            <td>1.67%</td>
+            <td>1.64%</td>
+        </tr>
+        <tr>
+            <td>差额百分比</td>
+            <td>-80.38%</td>
+            <td>-13.79%</td>
+            <td>16.1%</td>
+            <td>33.33%</td>
+            <td>15.78%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="eeb11309a070478caa51540046008981" class="chart-container" style="position: absolute; width: 619px; height: 353px; top: 2280.60009765625px; left: 300px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>差额百分比</th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>营业收入同比增长率</td>
+            <td>-25.1%</td>
+            <td>-75.78%</td>
+            <td>*112.89%</td>
+            <td>*142.51%</td>
+            <td>-15.32%</td>
+        </tr>
+        <tr>
+            <td>营业利润同比增长率</td>
+            <td>-48.48%</td>
+            <td>-67.23%</td>
+            <td>*326.09%</td>
+            <td>38.08%</td>
+            <td>-38.31%</td>
+        </tr>
+        <tr>
+            <td>利润总额同比增长率</td>
+            <td>-8.92%</td>
+            <td>-17.14%</td>
+            <td>-28.46%</td>
+            <td>37.77%</td>
+            <td>-37.63%</td>
+        </tr>
+        <tr>
+            <td>归属母公司股东的净利润同比增长率</td>
+            <td>25.67%</td>
+            <td>-7.68%</td>
+            <td>-23.15%</td>
+            <td>54.65%</td>
+            <td>-32.64%</td>
+        </tr>
+        <tr>
+            <td>净资产收益率同比增长率</td>
+            <td>14.88%</td>
+            <td>-31.36%</td>
+            <td>-29.47%</td>
+            <td>9.55%</td>
+            <td>-40.88%</td>
+        </tr>
+        <tr>
+            <td>总资产同比增长率</td>
+            <td>-80.38%</td>
+            <td>-13.79%</td>
+            <td>16.1%</td>
+            <td>33.33%</td>
+            <td>15.78%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>    </div>
+    <script>
+            $('#营业收入同比增长率').css('border-style', 'dashed').css('border-width', '0px');$("#营业收入同比增长率>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#营业收入同比增长率'), function() { chart_营业收入同比增长率.resize()});
+            $('#6170738d219e4ac9917d6f940912f603').css('border-style', 'dashed').css('border-width', '0px');$("#6170738d219e4ac9917d6f940912f603>div:nth-child(1)").width("100%").height("100%");
+            $('#营业利润同比增长率').css('border-style', 'dashed').css('border-width', '0px');$("#营业利润同比增长率>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#营业利润同比增长率'), function() { chart_营业利润同比增长率.resize()});
+            $('#c1a8ee2d5680497f945eaaa708b4f2a6').css('border-style', 'dashed').css('border-width', '0px');$("#c1a8ee2d5680497f945eaaa708b4f2a6>div:nth-child(1)").width("100%").height("100%");
+            $('#利润总额同比增长率').css('border-style', 'dashed').css('border-width', '0px');$("#利润总额同比增长率>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#利润总额同比增长率'), function() { chart_利润总额同比增长率.resize()});
+            $('#f370526185d942aa801b45e7c54c6367').css('border-style', 'dashed').css('border-width', '0px');$("#f370526185d942aa801b45e7c54c6367>div:nth-child(1)").width("100%").height("100%");
+            $('#归属母公司股东的净利润同比增长率').css('border-style', 'dashed').css('border-width', '0px');$("#归属母公司股东的净利润同比增长率>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#归属母公司股东的净利润同比增长率'), function() { chart_归属母公司股东的净利润同比增长率.resize()});
+            $('#dc11040a30d3488d9ecf585cbeea832d').css('border-style', 'dashed').css('border-width', '0px');$("#dc11040a30d3488d9ecf585cbeea832d>div:nth-child(1)").width("100%").height("100%");
+            $('#净资产收益率同比增长率').css('border-style', 'dashed').css('border-width', '0px');$("#净资产收益率同比增长率>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#净资产收益率同比增长率'), function() { chart_净资产收益率同比增长率.resize()});
+            $('#397462993d5640d2800e0dd8388ce99f').css('border-style', 'dashed').css('border-width', '0px');$("#397462993d5640d2800e0dd8388ce99f>div:nth-child(1)").width("100%").height("100%");
+            $('#总资产同比增长率').css('border-style', 'dashed').css('border-width', '0px');$("#总资产同比增长率>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#总资产同比增长率'), function() { chart_总资产同比增长率.resize()});
+            $('#be2ffc59727b4135966915d0e4a218b0').css('border-style', 'dashed').css('border-width', '0px');$("#be2ffc59727b4135966915d0e4a218b0>div:nth-child(1)").width("100%").height("100%");
+            $('#eeb11309a070478caa51540046008981').css('border-style', 'dashed').css('border-width', '0px');$("#eeb11309a070478caa51540046008981>div:nth-child(1)").width("100%").height("100%");
+            var charts_id = ['营业收入同比增长率','6170738d219e4ac9917d6f940912f603','营业利润同比增长率','c1a8ee2d5680497f945eaaa708b4f2a6','利润总额同比增长率','f370526185d942aa801b45e7c54c6367','归属母公司股东的净利润同比增长率','dc11040a30d3488d9ecf585cbeea832d','净资产收益率同比增长率','397462993d5640d2800e0dd8388ce99f','总资产同比增长率','be2ffc59727b4135966915d0e4a218b0','eeb11309a070478caa51540046008981'];
+function downloadCfg () {
+    const fileName = 'chart_config.json'
+    let downLink = document.createElement('a')
+    downLink.download = fileName
+
+    let result = []
+    for(let i=0; i<charts_id.length; i++) {
+        chart = $('#'+charts_id[i])
+        result.push({
+            cid: charts_id[i],
+            width: chart.css("width"),
+            height: chart.css("height"),
+            top: chart.offset().top + "px",
+            left: chart.offset().left + "px"
+        })
+    }
+
+    let blob = new Blob([JSON.stringify(result)])
+    downLink.href = URL.createObjectURL(blob)
+    document.body.appendChild(downLink)
+    downLink.click()
+    document.body.removeChild(downLink)
+}
+    </script>
+</body>
+</html>
