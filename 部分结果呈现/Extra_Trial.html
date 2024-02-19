@@ -1,0 +1,4827 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Extra_Trial</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/ResizeSensor.js"></script>
+
+            <link rel="stylesheet"  href="https://assets.pyecharts.org/assets/jquery-ui.css">
+
+</head>
+<body>
+    <style>.box {  }; </style>
+        
+    <div class="box">
+                <div id="应收账款周转率" class="chart-container" style="position: absolute; width: 716px; height: 500px; top: 31px; left: 8px;"></div>
+    <script>
+        var chart_应收账款周转率 = echarts.init(
+            document.getElementById('应收账款周转率'), 'white', {renderer: 'canvas'});
+        var option_应收账款周转率 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u4f01\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    30.79
+                ],
+                [
+                    "2018",
+                    31.98
+                ],
+                [
+                    "2019",
+                    36.21
+                ],
+                [
+                    "2020",
+                    33.2
+                ],
+                [
+                    "2021",
+                    47.98
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#FFC0CB"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u884c\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    13.18
+                ],
+                [
+                    "2018",
+                    14.89
+                ],
+                [
+                    "2019",
+                    14.99
+                ],
+                [
+                    "2020",
+                    12.13
+                ],
+                [
+                    "2021",
+                    16.05
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#00FFFF"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    17.61
+                ],
+                [
+                    "2018",
+                    17.09
+                ],
+                [
+                    "2019",
+                    21.22
+                ],
+                [
+                    "2020",
+                    21.07
+                ],
+                [
+                    "2021",
+                    31.93
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "color": "#EEEEEE",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#EEEEEE"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u4f18\u79c0\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    17.4
+                ],
+                [
+                    "2018",
+                    17.0
+                ],
+                [
+                    "2019",
+                    25.5
+                ],
+                [
+                    "2020",
+                    26.8
+                ],
+                [
+                    "2021",
+                    28.2
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#7C4DFF"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u826f\u597d\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    11.4
+                ],
+                [
+                    "2018",
+                    11.0
+                ],
+                [
+                    "2019",
+                    19.5
+                ],
+                [
+                    "2020",
+                    20.8
+                ],
+                [
+                    "2021",
+                    22.2
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#306AFE"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u5e73\u5747\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    5.7
+                ],
+                [
+                    "2018",
+                    5.3
+                ],
+                [
+                    "2019",
+                    13.8
+                ],
+                [
+                    "2020",
+                    15.1
+                ],
+                [
+                    "2021",
+                    16.5
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#2979FF"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u8f83\u4f4e\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    2.9
+                ],
+                [
+                    "2018",
+                    2.1
+                ],
+                [
+                    "2019",
+                    10.7
+                ],
+                [
+                    "2020",
+                    12.1
+                ],
+                [
+                    "2021",
+                    7.3
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#2196F3"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u8f83\u5dee\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    0.1
+                ],
+                [
+                    "2018",
+                    0.3
+                ],
+                [
+                    "2019",
+                    7.6
+                ],
+                [
+                    "2020",
+                    9.5
+                ],
+                [
+                    "2021",
+                    1.5
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#64B5F6"
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4f01\u4e1a",
+                "\u884c\u4e1a",
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+                "\u4f18\u79c0\u503c",
+                "\u826f\u597d\u503c",
+                "\u5e73\u5747\u503c",
+                "\u8f83\u4f4e\u503c",
+                "\u8f83\u5dee\u503c"
+            ],
+            "selected": {
+                "\u4f01\u4e1a": true,
+                "\u884c\u4e1a": true,
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)": true,
+                "\u4f18\u79c0\u503c": true,
+                "\u826f\u597d\u503c": true,
+                "\u5e73\u5747\u503c": true,
+                "\u8f83\u4f4e\u503c": true,
+                "\u8f83\u5dee\u503c": true
+            },
+            "type": "scroll",
+            "show": true,
+            "left": "20%",
+            "right": "20%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function(params){                        color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                        form = params[0].name + '\u5e74' + '<br />';                        for(i=0; i<params.length; i++){                        form += color_icon + params[i].color + '\"></span>'+ params[i].seriesName + '\uff1a' + params[i].data[1] + '\u6b21' + '<br />';                        }                        return form;                        }                        ,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u5e74\u4efd",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6570\n\u503c",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 40,
+            "nameRotate": 0,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u5e94\u6536\u8d26\u6b3e\u5468\u8f6c\u7387",
+            "subtext": "\u5355\u4f4d: \u6b21",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": false,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "bar"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "type": "clear",
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    },
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "-7px",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_应收账款周转率.setOption(option_应收账款周转率);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="f4b27bd6578844fcbf4c734cd58a21fe" class="chart-container" style="position: absolute; width: 535px; height: 261px; top: 533px; left: 57px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>企业</td>
+            <td>30.79</td>
+            <td>31.98</td>
+            <td>36.21</td>
+            <td>33.2</td>
+            <td>47.98</td>
+        </tr>
+        <tr>
+            <td>行业</td>
+            <td>13.18</td>
+            <td>14.89</td>
+            <td>14.99</td>
+            <td>12.13</td>
+            <td>16.05</td>
+        </tr>
+        <tr>
+            <td>差额</td>
+            <td>17.61</td>
+            <td>17.09</td>
+            <td>21.22</td>
+            <td>21.07</td>
+            <td>31.93</td>
+        </tr>
+        <tr>
+            <td>差额百分比</td>
+            <td>*133.61%</td>
+            <td>*114.78%</td>
+            <td>*141.56%</td>
+            <td>*173.7%</td>
+            <td>*198.94%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>                <div id="总资产周转率" class="chart-container" style="position: absolute; width: 716px; height: 500px; top: 31.600000381469727px; left: 739px;"></div>
+    <script>
+        var chart_总资产周转率 = echarts.init(
+            document.getElementById('总资产周转率'), 'white', {renderer: 'canvas'});
+        var option_总资产周转率 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u4f01\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    0.84
+                ],
+                [
+                    "2018",
+                    0.97
+                ],
+                [
+                    "2019",
+                    0.97
+                ],
+                [
+                    "2020",
+                    0.74
+                ],
+                [
+                    "2021",
+                    1.05
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#FFC0CB"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u884c\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    0.32
+                ],
+                [
+                    "2018",
+                    0.39
+                ],
+                [
+                    "2019",
+                    0.37
+                ],
+                [
+                    "2020",
+                    0.28
+                ],
+                [
+                    "2021",
+                    0.39
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#00FFFF"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    0.52
+                ],
+                [
+                    "2018",
+                    0.58
+                ],
+                [
+                    "2019",
+                    0.6
+                ],
+                [
+                    "2020",
+                    0.46
+                ],
+                [
+                    "2021",
+                    0.66
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "color": "#EEEEEE",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#EEEEEE"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u4f18\u79c0\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    1.0
+                ],
+                [
+                    "2018",
+                    1.0
+                ],
+                [
+                    "2019",
+                    1.4
+                ],
+                [
+                    "2020",
+                    1.2
+                ],
+                [
+                    "2021",
+                    0.5
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#7C4DFF"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u826f\u597d\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    0.6
+                ],
+                [
+                    "2018",
+                    0.6
+                ],
+                [
+                    "2019",
+                    1.0
+                ],
+                [
+                    "2020",
+                    0.8
+                ],
+                [
+                    "2021",
+                    0.4
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#306AFE"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u5e73\u5747\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    0.3
+                ],
+                [
+                    "2018",
+                    0.3
+                ],
+                [
+                    "2019",
+                    0.7
+                ],
+                [
+                    "2020",
+                    0.5
+                ],
+                [
+                    "2021",
+                    0.3
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#2979FF"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u8f83\u4f4e\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    0.2
+                ],
+                [
+                    "2018",
+                    0.2
+                ],
+                [
+                    "2019",
+                    0.6
+                ],
+                [
+                    "2020",
+                    0.4
+                ],
+                [
+                    "2021",
+                    0.2
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#2196F3"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u8f83\u5dee\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    0.1
+                ],
+                [
+                    "2018",
+                    0.1
+                ],
+                [
+                    "2019",
+                    0.1
+                ],
+                [
+                    "2020",
+                    0.1
+                ],
+                [
+                    "2021",
+                    0.1
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#64B5F6"
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4f01\u4e1a",
+                "\u884c\u4e1a",
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+                "\u4f18\u79c0\u503c",
+                "\u826f\u597d\u503c",
+                "\u5e73\u5747\u503c",
+                "\u8f83\u4f4e\u503c",
+                "\u8f83\u5dee\u503c"
+            ],
+            "selected": {
+                "\u4f01\u4e1a": true,
+                "\u884c\u4e1a": true,
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)": true,
+                "\u4f18\u79c0\u503c": true,
+                "\u826f\u597d\u503c": true,
+                "\u5e73\u5747\u503c": true,
+                "\u8f83\u4f4e\u503c": true,
+                "\u8f83\u5dee\u503c": true
+            },
+            "type": "scroll",
+            "show": true,
+            "left": "20%",
+            "right": "20%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function(params){                        color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                        form = params[0].name + '\u5e74' + '<br />';                        for(i=0; i<params.length; i++){                        form += color_icon + params[i].color + '\"></span>'+ params[i].seriesName + '\uff1a' + params[i].data[1] + '\u6b21' + '<br />';                        }                        return form;                        }                        ,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u5e74\u4efd",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6570\n\u503c",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 40,
+            "nameRotate": 0,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u603b\u8d44\u4ea7\u5468\u8f6c\u7387",
+            "subtext": "\u5355\u4f4d: \u6b21",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": false,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "bar"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "type": "clear",
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    },
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "-7px",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_总资产周转率.setOption(option_总资产周转率);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="db15f89451bc4bd0b7c5d7aacf21dff0" class="chart-container" style="position: absolute; width: 534px; height: 261px; top: 534.6000366210938px; left: 790px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>企业</td>
+            <td>0.84</td>
+            <td>0.97</td>
+            <td>0.97</td>
+            <td>0.74</td>
+            <td>1.05</td>
+        </tr>
+        <tr>
+            <td>行业</td>
+            <td>0.32</td>
+            <td>0.39</td>
+            <td>0.37</td>
+            <td>0.28</td>
+            <td>0.39</td>
+        </tr>
+        <tr>
+            <td>差额</td>
+            <td>0.52</td>
+            <td>0.58</td>
+            <td>0.6</td>
+            <td>0.46</td>
+            <td>0.66</td>
+        </tr>
+        <tr>
+            <td>差额百分比</td>
+            <td>*162.5%</td>
+            <td>*148.72%</td>
+            <td>*162.16%</td>
+            <td>*164.29%</td>
+            <td>*169.23%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>                <div id="id_0" class="chart-container" style="position: absolute; width: 716px; height: 500px; top: 828.2000122070312px; left: 9px;"></div>
+    <script>
+        var chart_id_0 = echarts.init(
+            document.getElementById('id_0'), 'white', {renderer: 'canvas'});
+        var option_id_0 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u4f01\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    42.55
+                ],
+                [
+                    "2018",
+                    42.0
+                ],
+                [
+                    "2019",
+                    47.15
+                ],
+                [
+                    "2020",
+                    45.07
+                ],
+                [
+                    "2021",
+                    43.69
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "fontSize": 12,
+                "formatter": function(params) {                form = params.value[1] + '%';                return form;            }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#FFC0CB"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u884c\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    52.64
+                ],
+                [
+                    "2018",
+                    49.77
+                ],
+                [
+                    "2019",
+                    51.2
+                ],
+                [
+                    "2020",
+                    52.7
+                ],
+                [
+                    "2021",
+                    54.3
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "fontSize": 12,
+                "formatter": function(params) {                form = params.value[1] + '%';                return form;            }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#00FFFF"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    -10.09
+                ],
+                [
+                    "2018",
+                    -7.77
+                ],
+                [
+                    "2019",
+                    -4.05
+                ],
+                [
+                    "2020",
+                    -7.63
+                ],
+                [
+                    "2021",
+                    -10.61
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "fontSize": 12,
+                "formatter": function(params) {                form = params.value[1] + '%';                return form;            }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#EEEEEE"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u4f18\u79c0\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    50.0
+                ],
+                [
+                    "2018",
+                    49.5
+                ],
+                [
+                    "2019",
+                    49.0
+                ],
+                [
+                    "2020",
+                    48.6
+                ],
+                [
+                    "2021",
+                    48.3
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#7C4DFF"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u826f\u597d\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    55.0
+                ],
+                [
+                    "2018",
+                    54.5
+                ],
+                [
+                    "2019",
+                    54.0
+                ],
+                [
+                    "2020",
+                    53.6
+                ],
+                [
+                    "2021",
+                    53.3
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#306AFE"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u5e73\u5747\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    60.0
+                ],
+                [
+                    "2018",
+                    59.5
+                ],
+                [
+                    "2019",
+                    59.0
+                ],
+                [
+                    "2020",
+                    58.6
+                ],
+                [
+                    "2021",
+                    58.3
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#2979FF"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u8f83\u4f4e\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    70.0
+                ],
+                [
+                    "2018",
+                    69.5
+                ],
+                [
+                    "2019",
+                    69.0
+                ],
+                [
+                    "2020",
+                    68.6
+                ],
+                [
+                    "2021",
+                    68.3
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#2196F3"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u8f83\u5dee\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    85.0
+                ],
+                [
+                    "2018",
+                    84.5
+                ],
+                [
+                    "2019",
+                    84.0
+                ],
+                [
+                    "2020",
+                    83.6
+                ],
+                [
+                    "2021",
+                    83.3
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#64B5F6"
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4f01\u4e1a",
+                "\u884c\u4e1a",
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+                "\u4f18\u79c0\u503c",
+                "\u826f\u597d\u503c",
+                "\u5e73\u5747\u503c",
+                "\u8f83\u4f4e\u503c",
+                "\u8f83\u5dee\u503c"
+            ],
+            "selected": {
+                "\u4f01\u4e1a": true,
+                "\u884c\u4e1a": true,
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)": true,
+                "\u4f18\u79c0\u503c": true,
+                "\u826f\u597d\u503c": true,
+                "\u5e73\u5747\u503c": true,
+                "\u8f83\u4f4e\u503c": true,
+                "\u8f83\u5dee\u503c": true
+            },
+            "type": "scroll",
+            "show": true,
+            "left": "20%",
+            "right": "20%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function(params){                        color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                        form = params[0].name + '\u5e74' + '<br />';                        for(i=0; i<params.length; i++){                        form += color_icon + params[i].color + '\"></span>'+ params[i].seriesName + '\uff1a' + params[i].data[1] + '%' + '<br />';                        }                        return form;                        }                        ,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u5e74\u4efd",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6570\n\u503c",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 40,
+            "nameRotate": 0,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u8d44\u4ea7\u8d1f\u503a\u7387",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": false,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "bar"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "type": "clear",
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    },
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "-7px",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_id_0.setOption(option_id_0);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="bcbbab00609445a9be6390171eb4fa4c" class="chart-container" style="position: absolute; width: 507px; height: 261px; top: 1330.2000732421875px; left: 60px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>企业</td>
+            <td>42.55%</td>
+            <td>42.0%</td>
+            <td>47.15%</td>
+            <td>45.07%</td>
+            <td>43.69%</td>
+        </tr>
+        <tr>
+            <td>行业</td>
+            <td>52.64%</td>
+            <td>49.77%</td>
+            <td>51.2%</td>
+            <td>52.7%</td>
+            <td>54.3%</td>
+        </tr>
+        <tr>
+            <td>差额</td>
+            <td>-10.09%</td>
+            <td>-7.77%</td>
+            <td>-4.05%</td>
+            <td>-7.63%</td>
+            <td>-10.61%</td>
+        </tr>
+        <tr>
+            <td>差额百分比</td>
+            <td>-19.17%</td>
+            <td>-15.61%</td>
+            <td>-7.91%</td>
+            <td>-14.48%</td>
+            <td>-19.54%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>                <div id="id_1" class="chart-container" style="position: absolute; width: 716px; height: 500px; top: 828.7999877929688px; left: 740px;"></div>
+    <script>
+        var chart_id_1 = echarts.init(
+            document.getElementById('id_1'), 'white', {renderer: 'canvas'});
+        var option_id_1 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u4f01\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    3.72
+                ],
+                [
+                    "2018",
+                    6.69
+                ],
+                [
+                    "2019",
+                    4.65
+                ],
+                [
+                    "2020",
+                    3.26
+                ],
+                [
+                    "2021",
+                    9.85
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#FFC0CB"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u884c\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    11.99
+                ],
+                [
+                    "2018",
+                    7.14
+                ],
+                [
+                    "2019",
+                    6.82
+                ],
+                [
+                    "2020",
+                    2.35
+                ],
+                [
+                    "2021",
+                    7.86
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#00FFFF"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    -8.27
+                ],
+                [
+                    "2018",
+                    -0.45
+                ],
+                [
+                    "2019",
+                    -2.17
+                ],
+                [
+                    "2020",
+                    0.91
+                ],
+                [
+                    "2021",
+                    1.99
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "color": "#EEEEEE",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#EEEEEE"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u4f18\u79c0\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    6.8
+                ],
+                [
+                    "2018",
+                    6.3
+                ],
+                [
+                    "2019",
+                    6.5
+                ],
+                [
+                    "2020",
+                    7.6
+                ],
+                [
+                    "2021",
+                    10.6
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#7C4DFF"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u826f\u597d\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    5.6
+                ],
+                [
+                    "2018",
+                    5.1
+                ],
+                [
+                    "2019",
+                    5.3
+                ],
+                [
+                    "2020",
+                    6.4
+                ],
+                [
+                    "2021",
+                    5.8
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#306AFE"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u5e73\u5747\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    3.1
+                ],
+                [
+                    "2018",
+                    2.7
+                ],
+                [
+                    "2019",
+                    2.9
+                ],
+                [
+                    "2020",
+                    4.0
+                ],
+                [
+                    "2021",
+                    2.0
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#2979FF"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u8f83\u4f4e\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    0.8
+                ],
+                [
+                    "2018",
+                    0.3
+                ],
+                [
+                    "2019",
+                    0.5
+                ],
+                [
+                    "2020",
+                    1.6
+                ],
+                [
+                    "2021",
+                    -0.6
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#2196F3"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u8f83\u5dee\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    -3.5
+                ],
+                [
+                    "2018",
+                    -4.0
+                ],
+                [
+                    "2019",
+                    -3.8
+                ],
+                [
+                    "2020",
+                    -2.7
+                ],
+                [
+                    "2021",
+                    -4.1
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#64B5F6"
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4f01\u4e1a",
+                "\u884c\u4e1a",
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+                "\u4f18\u79c0\u503c",
+                "\u826f\u597d\u503c",
+                "\u5e73\u5747\u503c",
+                "\u8f83\u4f4e\u503c",
+                "\u8f83\u5dee\u503c"
+            ],
+            "selected": {
+                "\u4f01\u4e1a": true,
+                "\u884c\u4e1a": true,
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)": true,
+                "\u4f18\u79c0\u503c": true,
+                "\u826f\u597d\u503c": true,
+                "\u5e73\u5747\u503c": true,
+                "\u8f83\u4f4e\u503c": true,
+                "\u8f83\u5dee\u503c": true
+            },
+            "type": "scroll",
+            "show": true,
+            "left": "20%",
+            "right": "20%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function(params){                        color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                        form = params[0].name + '\u5e74' + '<br />';                        for(i=0; i<params.length; i++){                        form += color_icon + params[i].color + '\"></span>'+ params[i].seriesName + '\uff1a' + params[i].data[1] + '<br />';                        }                        return form;                        }                        ,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u5e74\u4efd",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6570\n\u503c",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 40,
+            "nameRotate": 0,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u5df2\u83b7\u5229\u606f\u500d\u6570",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": false,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "bar"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "type": "clear",
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    },
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "-7px",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_id_1.setOption(option_id_1);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="a0ec957c42574e7e9e7bb2eaeca09be2" class="chart-container" style="position: absolute; width: 471px; height: 261px; top: 1331.800048828125px; left: 793px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>企业</td>
+            <td>3.72</td>
+            <td>6.69</td>
+            <td>4.65</td>
+            <td>3.26</td>
+            <td>9.85</td>
+        </tr>
+        <tr>
+            <td>行业</td>
+            <td>11.99</td>
+            <td>7.14</td>
+            <td>6.82</td>
+            <td>2.35</td>
+            <td>7.86</td>
+        </tr>
+        <tr>
+            <td>差额</td>
+            <td>-8.27</td>
+            <td>-0.45</td>
+            <td>-2.17</td>
+            <td>0.91</td>
+            <td>1.99</td>
+        </tr>
+        <tr>
+            <td>差额百分比</td>
+            <td>*-68.97%</td>
+            <td>-6.3%</td>
+            <td>-31.82%</td>
+            <td>38.72%</td>
+            <td>25.32%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>                <div id="总资产净利率ROA" class="chart-container" style="position: absolute; width: 716px; height: 500px; top: 1640.4000244140625px; left: 9px;"></div>
+    <script>
+        var chart_总资产净利率ROA = echarts.init(
+            document.getElementById('总资产净利率ROA'), 'white', {renderer: 'canvas'});
+        var option_总资产净利率ROA = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u4f01\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    1.53
+                ],
+                [
+                    "2018",
+                    2.99
+                ],
+                [
+                    "2019",
+                    2.59
+                ],
+                [
+                    "2020",
+                    1.28
+                ],
+                [
+                    "2021",
+                    4.6
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {                        form = params.value[1] + '%';                        return form;                    }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#FFC0CB"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u884c\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    2.38
+                ],
+                [
+                    "2018",
+                    4.48
+                ],
+                [
+                    "2019",
+                    4.17
+                ],
+                [
+                    "2020",
+                    -0.13
+                ],
+                [
+                    "2021",
+                    3.28
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {                        form = params.value[1] + '%';                        return form;                    }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#00FFFF"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    -0.85
+                ],
+                [
+                    "2018",
+                    -1.49
+                ],
+                [
+                    "2019",
+                    -1.58
+                ],
+                [
+                    "2020",
+                    1.41
+                ],
+                [
+                    "2021",
+                    1.32
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {                        form = params.value[1] + '%';                        return form;                    }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#EEEEEE"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u4f18\u79c0\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    7.7
+                ],
+                [
+                    "2018",
+                    6.5
+                ],
+                [
+                    "2019",
+                    6.2
+                ],
+                [
+                    "2020",
+                    6.8
+                ],
+                [
+                    "2021",
+                    5.0
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#7C4DFF"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u826f\u597d\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    5.0
+                ],
+                [
+                    "2018",
+                    3.8
+                ],
+                [
+                    "2019",
+                    3.5
+                ],
+                [
+                    "2020",
+                    4.1
+                ],
+                [
+                    "2021",
+                    3.1
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#306AFE"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u5e73\u5747\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    2.4
+                ],
+                [
+                    "2018",
+                    1.6
+                ],
+                [
+                    "2019",
+                    1.6
+                ],
+                [
+                    "2020",
+                    1.9
+                ],
+                [
+                    "2021",
+                    1.5
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#2979FF"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u8f83\u4f4e\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    -2.4
+                ],
+                [
+                    "2018",
+                    -3.3
+                ],
+                [
+                    "2019",
+                    -3.3
+                ],
+                [
+                    "2020",
+                    -3.0
+                ],
+                [
+                    "2021",
+                    -0.4
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#2196F3"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u8f83\u5dee\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    -7.3
+                ],
+                [
+                    "2018",
+                    -8.2
+                ],
+                [
+                    "2019",
+                    -8.3
+                ],
+                [
+                    "2020",
+                    -7.9
+                ],
+                [
+                    "2021",
+                    -5.2
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#64B5F6"
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4f01\u4e1a",
+                "\u884c\u4e1a",
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+                "\u4f18\u79c0\u503c",
+                "\u826f\u597d\u503c",
+                "\u5e73\u5747\u503c",
+                "\u8f83\u4f4e\u503c",
+                "\u8f83\u5dee\u503c"
+            ],
+            "selected": {
+                "\u4f01\u4e1a": true,
+                "\u884c\u4e1a": true,
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)": true,
+                "\u4f18\u79c0\u503c": true,
+                "\u826f\u597d\u503c": true,
+                "\u5e73\u5747\u503c": true,
+                "\u8f83\u4f4e\u503c": true,
+                "\u8f83\u5dee\u503c": true
+            },
+            "type": "scroll",
+            "show": true,
+            "left": "20%",
+            "right": "20%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function(params){                        color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                        form = params[0].name + '\u5e74' + '<br />';                        for(i=0; i<params.length; i++){                        form += color_icon + params[i].color + '\"></span>'+ params[i].seriesName + '\uff1a' + params[i].data[1] + '%' + '<br />';                        }                        return form;                        }                        ,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u5e74\u4efd",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6570\n\u503c",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 40,
+            "nameRotate": 0,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}%"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u603b\u8d44\u4ea7\u51c0\u5229\u7387ROA",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": false,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "bar"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "type": "clear",
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    },
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "-7px",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_总资产净利率ROA.setOption(option_总资产净利率ROA);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="e9fd6b6378054da493e380bd7359c6c0" class="chart-container" style="position: absolute; width: 503px; height: 261px; top: 2141.400146484375px; left: 57px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>企业</td>
+            <td>1.53%</td>
+            <td>2.99%</td>
+            <td>2.59%</td>
+            <td>1.28%</td>
+            <td>4.6%</td>
+        </tr>
+        <tr>
+            <td>行业</td>
+            <td>2.38%</td>
+            <td>4.48%</td>
+            <td>4.17%</td>
+            <td>-0.13%</td>
+            <td>3.28%</td>
+        </tr>
+        <tr>
+            <td>差额</td>
+            <td>-0.85%</td>
+            <td>-1.49%</td>
+            <td>-1.58%</td>
+            <td>1.41%</td>
+            <td>1.32%</td>
+        </tr>
+        <tr>
+            <td>差额百分比</td>
+            <td>-35.71%</td>
+            <td>-33.26%</td>
+            <td>-37.89%</td>
+            <td>*1084.62%</td>
+            <td>40.24%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>                <div id="净资产收益率ROE" class="chart-container" style="position: absolute; width: 717px; height: 500px; top: 1641px; left: 742px;"></div>
+    <script>
+        var chart_净资产收益率ROE = echarts.init(
+            document.getElementById('净资产收益率ROE'), 'white', {renderer: 'canvas'});
+        var option_净资产收益率ROE = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u4f01\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    1.9
+                ],
+                [
+                    "2018",
+                    4.4
+                ],
+                [
+                    "2019",
+                    3.7
+                ],
+                [
+                    "2020",
+                    1.6
+                ],
+                [
+                    "2021",
+                    7.4
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {                        form = params.value[1] + '%';                        return form;                    }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#FFC0CB"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u884c\u4e1a",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    5.28
+                ],
+                [
+                    "2018",
+                    9.19
+                ],
+                [
+                    "2019",
+                    8.29
+                ],
+                [
+                    "2020",
+                    0.59
+                ],
+                [
+                    "2021",
+                    6.58
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {                        form = params.value[1] + '%';                        return form;                    }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#00FFFF"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+            "connectNulls": true,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    -3.38
+                ],
+                [
+                    "2018",
+                    -4.79
+                ],
+                [
+                    "2019",
+                    -4.59
+                ],
+                [
+                    "2020",
+                    1.01
+                ],
+                [
+                    "2021",
+                    0.82
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params) {                        form = params.value[1] + '%';                        return form;                    }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#EEEEEE"
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u4f18\u79c0\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    8.3
+                ],
+                [
+                    "2018",
+                    8.9
+                ],
+                [
+                    "2019",
+                    9.2
+                ],
+                [
+                    "2020",
+                    9.4
+                ],
+                [
+                    "2021",
+                    7.4
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#7C4DFF"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u826f\u597d\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    5.1
+                ],
+                [
+                    "2018",
+                    5.9
+                ],
+                [
+                    "2019",
+                    6.3
+                ],
+                [
+                    "2020",
+                    6.4
+                ],
+                [
+                    "2021",
+                    3.6
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#306AFE"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u5e73\u5747\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    1.2
+                ],
+                [
+                    "2018",
+                    1.9
+                ],
+                [
+                    "2019",
+                    2.1
+                ],
+                [
+                    "2020",
+                    2.4
+                ],
+                [
+                    "2021",
+                    1.9
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#2979FF"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u8f83\u4f4e\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    -5.6
+                ],
+                [
+                    "2018",
+                    -4.8
+                ],
+                [
+                    "2019",
+                    -4.7
+                ],
+                [
+                    "2020",
+                    -4.4
+                ],
+                [
+                    "2021",
+                    -1.4
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#2196F3"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u8f83\u5dee\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2017",
+                    -13.1
+                ],
+                [
+                    "2018",
+                    -12.4
+                ],
+                [
+                    "2019",
+                    -12.3
+                ],
+                [
+                    "2020",
+                    -11.9
+                ],
+                [
+                    "2021",
+                    -6.2
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "itemStyle": {
+                "color": "#64B5F6"
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4f01\u4e1a",
+                "\u884c\u4e1a",
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)",
+                "\u4f18\u79c0\u503c",
+                "\u826f\u597d\u503c",
+                "\u5e73\u5747\u503c",
+                "\u8f83\u4f4e\u503c",
+                "\u8f83\u5dee\u503c"
+            ],
+            "selected": {
+                "\u4f01\u4e1a": true,
+                "\u884c\u4e1a": true,
+                "\u5dee\u989d(\u4f01\u4e1a-\u884c\u4e1a)": true,
+                "\u4f18\u79c0\u503c": true,
+                "\u826f\u597d\u503c": true,
+                "\u5e73\u5747\u503c": true,
+                "\u8f83\u4f4e\u503c": true,
+                "\u8f83\u5dee\u503c": true
+            },
+            "type": "scroll",
+            "show": true,
+            "left": "20%",
+            "right": "20%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function(params){                        color_icon = '<span style=\"display:inline-block;margin-right:5px;border-radius:50%;width:10px;height:10px;left:5px;background-color:';                        form = params[0].name + '\u5e74' + '<br />';                        for(i=0; i<params.length; i++){                        form += color_icon + params[i].color + '\"></span>'+ params[i].seriesName + '\uff1a' + params[i].data[1] + '%' + '<br />';                        }                        return form;                        }                        ,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u5e74\u4efd",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6570\n\u503c",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 40,
+            "nameRotate": 0,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}%"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u51c0\u8d44\u4ea7\u6536\u76ca\u7387ROE",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": false,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "bar"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "type": "clear",
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    },
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "-7px",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_净资产收益率ROE.setOption(option_净资产收益率ROE);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="637bbf9f5741489c8075bb0dfd5b24da" class="chart-container" style="position: absolute; width: 527px; height: 261px; top: 2143px; left: 793px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>企业</td>
+            <td>1.9%</td>
+            <td>4.4%</td>
+            <td>3.7%</td>
+            <td>1.6%</td>
+            <td>7.4%</td>
+        </tr>
+        <tr>
+            <td>行业</td>
+            <td>5.28%</td>
+            <td>9.19%</td>
+            <td>8.29%</td>
+            <td>0.59%</td>
+            <td>6.58%</td>
+        </tr>
+        <tr>
+            <td>差额</td>
+            <td>-3.38%</td>
+            <td>-4.79%</td>
+            <td>-4.59%</td>
+            <td>1.01%</td>
+            <td>0.82%</td>
+        </tr>
+        <tr>
+            <td>差额百分比</td>
+            <td>*-64.02%</td>
+            <td>*-52.12%</td>
+            <td>*-55.37%</td>
+            <td>*171.19%</td>
+            <td>12.46%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>    </div>
+    <script>
+            $('#应收账款周转率').css('border-style', 'dashed').css('border-width', '0px');$("#应收账款周转率>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#应收账款周转率'), function() { chart_应收账款周转率.resize()});
+            $('#f4b27bd6578844fcbf4c734cd58a21fe').css('border-style', 'dashed').css('border-width', '0px');$("#f4b27bd6578844fcbf4c734cd58a21fe>div:nth-child(1)").width("100%").height("100%");
+            $('#总资产周转率').css('border-style', 'dashed').css('border-width', '0px');$("#总资产周转率>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#总资产周转率'), function() { chart_总资产周转率.resize()});
+            $('#db15f89451bc4bd0b7c5d7aacf21dff0').css('border-style', 'dashed').css('border-width', '0px');$("#db15f89451bc4bd0b7c5d7aacf21dff0>div:nth-child(1)").width("100%").height("100%");
+            $('#id_0').css('border-style', 'dashed').css('border-width', '0px');$("#id_0>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#id_0'), function() { chart_id_0.resize()});
+            $('#bcbbab00609445a9be6390171eb4fa4c').css('border-style', 'dashed').css('border-width', '0px');$("#bcbbab00609445a9be6390171eb4fa4c>div:nth-child(1)").width("100%").height("100%");
+            $('#id_1').css('border-style', 'dashed').css('border-width', '0px');$("#id_1>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#id_1'), function() { chart_id_1.resize()});
+            $('#a0ec957c42574e7e9e7bb2eaeca09be2').css('border-style', 'dashed').css('border-width', '0px');$("#a0ec957c42574e7e9e7bb2eaeca09be2>div:nth-child(1)").width("100%").height("100%");
+            $('#总资产净利率ROA').css('border-style', 'dashed').css('border-width', '0px');$("#总资产净利率ROA>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#总资产净利率ROA'), function() { chart_总资产净利率ROA.resize()});
+            $('#e9fd6b6378054da493e380bd7359c6c0').css('border-style', 'dashed').css('border-width', '0px');$("#e9fd6b6378054da493e380bd7359c6c0>div:nth-child(1)").width("100%").height("100%");
+            $('#净资产收益率ROE').css('border-style', 'dashed').css('border-width', '0px');$("#净资产收益率ROE>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#净资产收益率ROE'), function() { chart_净资产收益率ROE.resize()});
+            $('#637bbf9f5741489c8075bb0dfd5b24da').css('border-style', 'dashed').css('border-width', '0px');$("#637bbf9f5741489c8075bb0dfd5b24da>div:nth-child(1)").width("100%").height("100%");
+            var charts_id = ['应收账款周转率','f4b27bd6578844fcbf4c734cd58a21fe','总资产周转率','db15f89451bc4bd0b7c5d7aacf21dff0','id_0','bcbbab00609445a9be6390171eb4fa4c','id_1','a0ec957c42574e7e9e7bb2eaeca09be2','总资产净利率ROA','e9fd6b6378054da493e380bd7359c6c0','净资产收益率ROE','637bbf9f5741489c8075bb0dfd5b24da'];
+function downloadCfg () {
+    const fileName = 'chart_config.json'
+    let downLink = document.createElement('a')
+    downLink.download = fileName
+
+    let result = []
+    for(let i=0; i<charts_id.length; i++) {
+        chart = $('#'+charts_id[i])
+        result.push({
+            cid: charts_id[i],
+            width: chart.css("width"),
+            height: chart.css("height"),
+            top: chart.offset().top + "px",
+            left: chart.offset().left + "px"
+        })
+    }
+
+    let blob = new Blob([JSON.stringify(result)])
+    downLink.href = URL.createObjectURL(blob)
+    document.body.appendChild(downLink)
+    downLink.click()
+    document.body.removeChild(downLink)
+}
+    </script>
+</body>
+</html>
